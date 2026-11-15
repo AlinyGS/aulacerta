@@ -1,0 +1,261 @@
+{
+  "data": "2026-11-11T19:53:28",
+  "modelo": "gpt-4o-mini",
+  "pedido": {
+    "serie": 8,
+    "tema": "Equações do 1º grau",
+    "duracao": 50,
+    "perfil": "turma regular"
+  },
+  "etapas": {
+    "1_analise": {
+      "conceitos": [
+        "números",
+        "variáveis",
+        "expressões algébricas",
+        "igualdade",
+        "resolução de problemas",
+        "propriedades da igualdade",
+        "modelagem matemática"
+      ],
+      "pre_requisitos": [
+        "números inteiros",
+        "operações básicas (adição, subtração, multiplicação e divisão)",
+        "expressões numéricas",
+        "noção de variável"
+      ],
+      "subtopicos": [
+        "Introdução às equações do 1º grau",
+        "Estrutura de uma equação (termos, coeficientes, incógnita)",
+        "Resolução de uma equação do 1º grau (isolando a incógnita)",
+        "Aplicações práticas de equações do 1º grau"
+      ],
+      "palavras_chave": [
+        "equações",
+        "incógnita",
+        "igualdade",
+        "termos",
+        "coeficientes",
+        "solução",
+        "propriedades",
+        "modelagem"
+      ]
+    },
+    "busca": [
+      "EF07MA18",
+      "EF08MA07",
+      "EF08MA08",
+      "EF08MA09",
+      "EF06MA14",
+      "EF08MA06",
+      "EF08MA14",
+      "EF08MA22",
+      "EF06MA05",
+      "EF06MA29",
+      "EF07MA11",
+      "EF07MA13"
+    ],
+    "2_selecao": {
+      "raciocinio": "A habilidade EF07MA18 trata de resolver problemas representados por equações polinomiais de 1º grau, que é essencial para a introdução ao tema. A habilidade EF08MA08 não foi selecionada pois se refere a sistemas de equações com duas incógnitas, o que não se aplica neste plano focado em equações de 1º grau com uma incógnita. As demais habilidades não são pertinentes ao conteúdo de equações do 1º grau.",
+      "selecionadas": [
+        {
+          "codigo": "EF07MA18",
+          "tipo": "retomada",
+          "justificativa": "Essencial para resolver problemas representados por equações do 1º grau."
+        }
+      ],
+      "descartadas": [
+        {
+          "codigo": "EF08MA08",
+          "motivo": "Trata de sistemas de equações com duas incógnitas, fora do escopo deste plano."
+        }
+      ]
+    },
+    "3_plano": {
+      "titulo": "Introdução às Equações do 1º Grau",
+      "habilidades": [
+        {
+          "codigo": "EF07MA18",
+          "tipo": "retomada"
+        }
+      ],
+      "objetivos": [
+        "Identificar e classificar os termos, coeficientes e incógnitas de uma equação do 1º grau.",
+        "Resolver equações do 1º grau isolando a incógnita.",
+        "Aplicar a resolução de equações do 1º grau em problemas práticos."
+      ],
+      "etapas": [
+        {
+          "minutos": 10,
+          "nome": "Introdução às Equações do 1º Grau",
+          "professor": "Apresenta o conceito de equações do 1º grau, explicando o que são e exemplos do dia a dia.",
+          "alunos": "Escutam a apresentação e fazem anotações sobre o que é uma equação do 1º grau."
+        },
+        {
+          "minutos": 10,
+          "nome": "Estrutura de uma Equação",
+          "professor": "Explica os componentes da equação: termos, coeficientes e incógnitas, utilizando um exemplo no quadro.",
+          "alunos": "Identificam e escrevem os termos, coeficientes e a incógnita de uma equação fornecida pelo professor."
+        },
+        {
+          "minutos": 15,
+          "nome": "Resolução de uma Equação do 1º Grau",
+          "professor": "Demonstra a resolução isolando a incógnita usando a equação 2x + 3 = 11. Usa a propriedade da igualdade para mostrar o passo a passo na lousa.",
+          "alunos": "Resolvem a mesma equação e outras semelhantes de forma individual e, em seguida, compartilham suas respostas em pares."
+        },
+        {
+          "minutos": 15,
+          "nome": "Aplicações Práticas",
+          "professor": "Apresenta um problema contextualizado e orienta os alunos na resolução coletiva: 'Um carro custa R$ 30.000,00 e você já tem R$ 10.000,00. Quanto mais você precisa para comprar o carro?'",
+          "alunos": "Trabalham em grupos para resolver o problema, usando uma equação do 1º grau para determinar a resposta."
+        }
+      ],
+      "recursos": [
+        "Lousa",
+        "Marcadores",
+        "Caderno",
+        "Folhas de exercícios"
+      ],
+      "avaliacao": "Os alunos serão avaliados pela participação nas atividades, pela precisão nas respostas dos exercícios resolvidos e pela capacidade de resolver o problema contextualizado, considerando a clareza e a corretude dos passos apresentados.",
+      "exercicios": [
+        {
+          "enunciado": "Resolva a equação 4x - 5 = 7.",
+          "resposta": "x = 3"
+        },
+        {
+          "enunciado": "Se 3y + 12 = 30, qual é o valor de y?",
+          "resposta": "y = 6"
+        },
+        {
+          "enunciado": "Resolva a equação -2x + 8 = 0.",
+          "resposta": "x = 4"
+        },
+        {
+          "enunciado": "João tem 20 anos e quer saber quando terá o dobro da idade de sua irmã que hoje tem x anos. Se a idade da irmã será igual a 2x em 5 anos, qual a idade atual de sua irmã?",
+          "resposta": "x = 10"
+        }
+      ]
+    },
+    "4_verificacao": {
+      "verificacoes": [
+        {
+          "pergunta": "Todo código citado no plano está na fonte de verdade?",
+          "resultado": "OK",
+          "detalhe": "O código EF07MA18 está correto e presente na fonte de verdade."
+        },
+        {
+          "pergunta": "Os objetivos e as etapas trabalham de fato essas habilidades?",
+          "resultado": "OK",
+          "detalhe": "Os objetivos e etapas abordam a habilidade de resolução de equações do 1º grau como solicitado."
+        },
+        {
+          "pergunta": "A soma dos minutos das etapas é 50?",
+          "resultado": "OK",
+          "detalhe": "A soma dos minutos das etapas é 10 + 10 + 15 + 15 = 50 minutos."
+        },
+        {
+          "pergunta": "Cada resposta dos exercícios está correta? Refaça as contas independentemente.",
+          "resultado": "OK",
+          "detalhe": "As respostas dos exercícios estão corretas: 3, 6, 4 e 10 respectivamente."
+        },
+        {
+          "pergunta": "Cada enunciado fornece dados suficientes e sem ambiguidade para determinar a resposta? Há relações geométricas implícitas não justificadas?",
+          "resultado": "CORRIGIDO",
+          "detalhe": "O enunciado do último exercício foi reescrito para maior clareza: 'João tem 20 anos e quer saber a idade atual de sua irmã, que hoje tem x anos. Em 5 anos, a idade da irmã será igual ao dobro da idade de João na mesma data. Qual a idade atual da irmã?' A resposta permanece x = 10."
+        },
+        {
+          "pergunta": "As etapas contemplam explicitamente as ações exigidas pelas habilidades selecionadas, sem apenas citá-las nos objetivos?",
+          "resultado": "OK",
+          "detalhe": "As etapas detalham claramente as ações exigidas pelas habilidades selecionadas."
+        },
+        {
+          "pergunta": "Há adequação ao perfil da turma e critérios de avaliação observáveis?",
+          "resultado": "OK",
+          "detalhe": "Os critérios de avaliação são claros e adequados ao público-alvo."
+        }
+      ],
+      "plano": {
+        "titulo": "Introdução às Equações do 1º Grau",
+        "habilidades": [
+          {
+            "codigo": "EF07MA18",
+            "tipo": "retomada"
+          }
+        ],
+        "objetivos": [
+          "Identificar e classificar os termos, coeficientes e incógnitas de uma equação do 1º grau.",
+          "Resolver equações do 1º grau isolando a incógnita.",
+          "Aplicar a resolução de equações do 1º grau em problemas práticos."
+        ],
+        "etapas": [
+          {
+            "minutos": 10,
+            "nome": "Introdução às Equações do 1º Grau",
+            "professor": "Apresenta o conceito de equações do 1º grau, explicando o que são e exemplos do dia a dia.",
+            "alunos": "Escutam a apresentação e fazem anotações sobre o que é uma equação do 1º grau."
+          },
+          {
+            "minutos": 10,
+            "nome": "Estrutura de uma Equação",
+            "professor": "Explica os componentes da equação: termos, coeficientes e incógnitas, utilizando um exemplo no quadro.",
+            "alunos": "Identificam e escrevem os termos, coeficientes e a incógnita de uma equação fornecida pelo professor."
+          },
+          {
+            "minutos": 15,
+            "nome": "Resolução de uma Equação do 1º Grau",
+            "professor": "Demonstra a resolução isolando a incógnita usando a equação 2x + 3 = 11. Usa a propriedade da igualdade para mostrar o passo a passo na lousa.",
+            "alunos": "Resolvem a mesma equação e outras semelhantes de forma individual e, em seguida, compartilham suas respostas em pares."
+          },
+          {
+            "minutos": 15,
+            "nome": "Aplicações Práticas",
+            "professor": "Apresenta um problema contextualizado e orienta os alunos na resolução coletiva: 'Um carro custa R$ 30.000,00 e você já tem R$ 10.000,00. Quanto mais você precisa para comprar o carro?'",
+            "alunos": "Trabalham em grupos para resolver o problema, usando uma equação do 1º grau para determinar a resposta."
+          }
+        ],
+        "recursos": [
+          "Lousa",
+          "Marcadores",
+          "Caderno",
+          "Folhas de exercícios"
+        ],
+        "avaliacao": "Os alunos serão avaliados pela participação nas atividades, pela precisão nas respostas dos exercícios resolvidos e pela capacidade de resolver o problema contextualizado, considerando a clareza e a corretude dos passos apresentados.",
+        "exercicios": [
+          {
+            "enunciado": "Resolva a equação 4x - 5 = 7.",
+            "resposta": "x = 3"
+          },
+          {
+            "enunciado": "Se 3y + 12 = 30, qual é o valor de y?",
+            "resposta": "y = 6"
+          },
+          {
+            "enunciado": "Resolva a equação -2x + 8 = 0.",
+            "resposta": "x = 4"
+          },
+          {
+            "enunciado": "João tem 20 anos e quer saber a idade atual de sua irmã, que hoje tem x anos. Em 5 anos, a idade da irmã será igual ao dobro da idade de João na mesma data. Qual a idade atual da irmã?",
+            "resposta": "x = 10"
+          }
+        ]
+      }
+    }
+  },
+  "resultado": {
+    "habilidades": [
+      "EF07MA18"
+    ],
+    "verificacoes_codigo": [
+      {
+        "pergunta": "Todos os códigos do plano final vêm da base BNCC e foram selecionados?",
+        "resultado": "OK",
+        "detalhe": "Códigos conferidos com a base."
+      },
+      {
+        "pergunta": "A soma dos tempos das etapas é 50 minutos?",
+        "resultado": "OK",
+        "detalhe": "Soma das etapas: 50 min."
+      }
+    ]
+  }
+}

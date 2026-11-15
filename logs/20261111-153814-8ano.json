@@ -1,0 +1,265 @@
+{
+  "data": "2026-11-11T15:37:30",
+  "modelo": "gpt-4o-mini",
+  "pedido": {
+    "serie": 8,
+    "tema": "Equações do 1º grau",
+    "duracao": 50,
+    "perfil": "turma regular"
+  },
+  "etapas": {
+    "1_analise": {
+      "conceitos": [
+        "variáveis",
+        "igualdade",
+        "resolução de problemas",
+        "propriedades das operações",
+        "modelagem matemática"
+      ],
+      "pre_requisitos": [
+        "números reais",
+        "operações básicas (adição, subtração, multiplicação e divisão)",
+        "noções de expressão algébrica"
+      ],
+      "subtopicos": [
+        "Introdução às variáveis",
+        "Construção de equações simples",
+        "Isolamento da variável",
+        "Resolução de equações do 1º grau"
+      ],
+      "palavras_chave": [
+        "equações",
+        "incógnita",
+        "igualdade",
+        "solução",
+        "variável",
+        "coeficiente",
+        "modelagem",
+        "resolução"
+      ]
+    },
+    "busca": [
+      "EF08MA07",
+      "EF08MA08",
+      "EF07MA18",
+      "EF08MA09",
+      "EF07MA13",
+      "EF08MA12",
+      "EF08MA13",
+      "EF08MA22",
+      "EF08MA24",
+      "EF06MA03",
+      "EF06MA14",
+      "EF06MA29"
+    ],
+    "2_selecao": {
+      "raciocinio": "O tema abrange equações do 1º grau, incluindo a introdução às variáveis, construção e resolução de equações. A habilidade EF07MA18 é relevante pois trata da resolução de equações do 1º grau na forma ax + b = c, sendo do 7º ano e, portanto, uma retomada. A habilidade EF08MA08 é pertinente, pois envolve a resolução de problemas que podem ser representados por equações do 1º grau e interpretação de contextos. As demais habilidades foram descartadas por não se relacionarem diretamente ao tema proposto.",
+      "selecionadas": [
+        {
+          "codigo": "EF07MA18",
+          "tipo": "retomada",
+          "justificativa": "Trata de equações do 1º grau com uma incógnita."
+        },
+        {
+          "codigo": "EF08MA08",
+          "tipo": "principal",
+          "justificativa": "Envolve resolução de problemas com equações do 1º grau e interpretação de contextos."
+        }
+      ],
+      "descartadas": []
+    },
+    "3_plano": {
+      "titulo": "Equações do 1º grau",
+      "habilidades": [
+        {
+          "codigo": "EF07MA18",
+          "tipo": "retomada"
+        },
+        {
+          "codigo": "EF08MA08",
+          "tipo": "principal"
+        }
+      ],
+      "objetivos": [
+        "Apresentar e explicar o conceito de variáveis em equações do 1º grau.",
+        "Construir e isolar equações simples utilizando propriedades da igualdade.",
+        "Resolver equações do 1º grau aplicadas a problemas contextuais."
+      ],
+      "etapas": [
+        {
+          "minutos": 10,
+          "nome": "Introdução às Variáveis",
+          "professor": "Apresenta o conceito de variáveis com exemplos simples, como 'x' e 'y', e discute como são utilizadas em equações.",
+          "alunos": "Participam da discussão, dando exemplos de variáveis em situações do cotidiano."
+        },
+        {
+          "minutos": 15,
+          "nome": "Construção de Equações Simples",
+          "professor": "Coloca problemas no quadro, como 'Um número somado a 5 é igual a 12', e guia os alunos para traduzi-los em equações.",
+          "alunos": "Trabalham em duplas para construir as equações a partir dos problemas apresentados."
+        },
+        {
+          "minutos": 15,
+          "nome": "Isolamento da Variável",
+          "professor": "Demonstra passo a passo como isolar a variável em uma equação, utilizando exemplos no quadro, como '2x + 3 = 11'.",
+          "alunos": "Resolvem exercícios dados pelo professor, praticando o isolamento da variável em diferentes equações."
+        },
+        {
+          "minutos": 10,
+          "nome": "Resolução de Equações do 1º Grau",
+          "professor": "Apresenta um problema contextualizado, como 'Um estudante tem R$ 50,00 e gasta R$ x por semana. Depois de 'y' semanas, ele terá R$ 20,00. Monta a equação e resolve com os alunos.",
+          "alunos": "Trabalham individualmente e em grupo para resolver o problema apresentado e outros exercícios propostos."
+        }
+      ],
+      "recursos": [
+        "Quadro branco e marcadores",
+        "Material impresso com exercícios",
+        "Calculadoras simples (se necessário)"
+      ],
+      "avaliacao": "Os alunos serão avaliados por meio da participação nas discussões, precisão na construção e resolução das equações, e na aplicação correta em problemas contextualizados. Critérios observáveis incluem: clareza na apresentação das equações, exatidão nas operações e a capacidade de explicação do raciocínio utilizado.",
+      "exercicios": [
+        {
+          "enunciado": "Resolva a equação: 3x + 4 = 19. Qual é o valor de x?",
+          "resposta": "x = 5"
+        },
+        {
+          "enunciado": "Se 2y - 6 = 10, qual o valor de y?",
+          "resposta": "y = 8"
+        },
+        {
+          "enunciado": "Um número diminuído de 7 é igual a 12. Qual é esse número?",
+          "resposta": "19"
+        },
+        {
+          "enunciado": "João tem R$ 40,00. Se ele gastar R$ x por semana, após 3 semanas terá R$ 10,00. Escreva e resolva a equação para encontrar x.",
+          "resposta": "x = 10"
+        }
+      ]
+    },
+    "4_verificacao": {
+      "verificacoes": [
+        {
+          "pergunta": "Todo código citado no plano está na fonte de verdade?",
+          "resultado": "OK",
+          "detalhe": "Os códigos EF07MA18 e EF08MA08 estão corretos e em conformidade com a fonte de verdade."
+        },
+        {
+          "pergunta": "Os objetivos e as etapas trabalham de fato essas habilidades?",
+          "resultado": "OK",
+          "detalhe": "Os objetivos abordam variáveis, construção e resolução de equações do 1º grau, que são parte das habilidades selecionadas."
+        },
+        {
+          "pergunta": "A soma dos minutos das etapas é 50?",
+          "resultado": "OK",
+          "detalhe": "A soma dos minutos das etapas é 10 + 15 + 15 + 10 = 50 minutos."
+        },
+        {
+          "pergunta": "Cada resposta dos exercícios está correta? Refaça as contas independentemente.",
+          "resultado": "OK",
+          "detalhe": "As respostas dos exercícios foram conferidas e estão corretas."
+        },
+        {
+          "pergunta": "Cada enunciado fornece dados suficientes e sem ambiguidade para determinar a resposta? Há relações geométricas implícitas não justificadas?",
+          "resultado": "CORRIGIDO",
+          "detalhe": "O enunciado 'Um número diminuído de 7 é igual a 12. Qual é esse número?' foi reescrito para maior clareza. A versão corrigida é: 'Um número (n) diminuído de 7 é igual a 12. Qual é esse número?'. Resposta mantida: 19."
+        },
+        {
+          "pergunta": "As etapas contemplam explicitamente as ações exigidas pelas habilidades selecionadas, sem apenas citá-las nos objetivos?",
+          "resultado": "ATENÇÃO",
+          "detalhe": "Embora as etapas abordem o conteúdo, não há menção direta de como cada etapa se relaciona com as habilidades de elaborar problemas em forma de equação."
+        },
+        {
+          "pergunta": "Há adequação ao perfil da turma e critérios de avaliação observáveis?",
+          "resultado": "OK",
+          "detalhe": "Os critérios de avaliação são claros e observáveis em relação à participação e precisão dos alunos."
+        }
+      ],
+      "plano": {
+        "titulo": "Equações do 1º grau",
+        "habilidades": [
+          {
+            "codigo": "EF07MA18",
+            "tipo": "retomada"
+          },
+          {
+            "codigo": "EF08MA08",
+            "tipo": "principal"
+          }
+        ],
+        "objetivos": [
+          "Apresentar e explicar o conceito de variáveis em equações do 1º grau.",
+          "Construir e isolar equações simples utilizando propriedades da igualdade.",
+          "Resolver equações do 1º grau aplicadas a problemas contextuais."
+        ],
+        "etapas": [
+          {
+            "minutos": 10,
+            "nome": "Introdução às Variáveis",
+            "professor": "Apresenta o conceito de variáveis com exemplos simples, como 'x' e 'y', e discute como são utilizadas em equações.",
+            "alunos": "Participam da discussão, dando exemplos de variáveis em situações do cotidiano."
+          },
+          {
+            "minutos": 15,
+            "nome": "Construção de Equações Simples",
+            "professor": "Coloca problemas no quadro, como 'Um número somado a 5 é igual a 12', e guia os alunos para traduzi-los em equações.",
+            "alunos": "Trabalham em duplas para construir as equações a partir dos problemas apresentados."
+          },
+          {
+            "minutos": 15,
+            "nome": "Isolamento da Variável",
+            "professor": "Demonstra passo a passo como isolar a variável em uma equação, utilizando exemplos no quadro, como '2x + 3 = 11'.",
+            "alunos": "Resolvem exercícios dados pelo professor, praticando o isolamento da variável em diferentes equações."
+          },
+          {
+            "minutos": 10,
+            "nome": "Resolução de Equações do 1º Grau",
+            "professor": "Apresenta um problema contextualizado, como 'Um estudante tem R$ 50,00 e gasta R$ x por semana. Depois de 'y' semanas, ele terá R$ 20,00. Monta a equação e resolve com os alunos.",
+            "alunos": "Trabalham individualmente e em grupo para resolver o problema apresentado e outros exercícios propostos."
+          }
+        ],
+        "recursos": [
+          "Quadro branco e marcadores",
+          "Material impresso com exercícios",
+          "Calculadoras simples (se necessário)"
+        ],
+        "avaliacao": "Os alunos serão avaliados por meio da participação nas discussões, precisão na construção e resolução das equações, e na aplicação correta em problemas contextualizados. Critérios observáveis incluem: clareza na apresentação das equações, exatidão nas operações e a capacidade de explicação do raciocínio utilizado.",
+        "exercicios": [
+          {
+            "enunciado": "Resolva a equação: 3x + 4 = 19. Qual é o valor de x?",
+            "resposta": "x = 5"
+          },
+          {
+            "enunciado": "Se 2y - 6 = 10, qual o valor de y?",
+            "resposta": "y = 8"
+          },
+          {
+            "enunciado": "Um número (n) diminuído de 7 é igual a 12. Qual é esse número?",
+            "resposta": "19"
+          },
+          {
+            "enunciado": "João tem R$ 40,00. Se ele gastar R$ x por semana, após 3 semanas terá R$ 10,00. Escreva e resolva a equação para encontrar x.",
+            "resposta": "x = 10"
+          }
+        ]
+      }
+    }
+  },
+  "resultado": {
+    "habilidades": [
+      "EF07MA18",
+      "EF08MA08"
+    ],
+    "verificacoes_codigo": [
+      {
+        "pergunta": "Todos os códigos do plano final vêm da base BNCC e foram selecionados?",
+        "resultado": "OK",
+        "detalhe": "Códigos conferidos com a base."
+      },
+      {
+        "pergunta": "A soma dos tempos das etapas é 50 minutos?",
+        "resultado": "OK",
+        "detalhe": "Soma das etapas: 50 min."
+      }
+    ]
+  }
+}

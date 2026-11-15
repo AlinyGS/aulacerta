@@ -1,0 +1,286 @@
+{
+  "data": "2026-11-11T19:54:49",
+  "modelo": "gpt-4o-mini",
+  "pedido": {
+    "serie": 9,
+    "tema": "Teorema de Pitágoras",
+    "duracao": 100,
+    "perfil": "turma regular, aula dupla"
+  },
+  "etapas": {
+    "1_analise": {
+      "conceitos": [
+        "triângulos",
+        "teoremas",
+        "distâncias",
+        "números reais",
+        "raiz quadrada"
+      ],
+      "pre_requisitos": [
+        "propriedades dos triângulos",
+        "noção de ângulo reto",
+        "aritmética básica",
+        "calculo de área e perímetro",
+        "teorema de Pitágoras inicial (em situações práticas)"
+      ],
+      "subtopicos": [
+        "introdução ao teorema de Pitágoras",
+        "identificação dos lados dos triângulos retângulos",
+        "aplicação do teorema em problemas práticos",
+        "resolução de equações envolvendo o teorema",
+        "casos aplicados (ex: distância entre pontos no plano cartesiano)"
+      ],
+      "palavras_chave": [
+        "triângulo retângulo",
+        "hipotenusa",
+        "catetos",
+        "teorema",
+        "distância",
+        "raiz quadrada",
+        "aplicação",
+        "propriedade"
+      ]
+    },
+    "busca": [
+      "EF09MA13",
+      "EF09MA14",
+      "EF07MA32",
+      "EF08MA14",
+      "EF06MA24",
+      "EF07MA25",
+      "EF07MA27",
+      "EF07MA28",
+      "EF07MA31",
+      "EF08MA19",
+      "EF09MA01",
+      "EF09MA05"
+    ],
+    "2_selecao": {
+      "raciocinio": "O tema é o Teorema de Pitágoras, que envolve a análise dos triângulos retângulos e suas relações métricas. A habilidade EF09MA13 é diretamente relacionada ao teorema de Pitágoras e é do 9º ano, então é escolhida como principal. A habilidade EF09MA14 também trata da aplicação do teorema de Pitágoras, sendo relevante para a resolução de problemas práticos, e é escolhida como principal. Não foram selecionadas habilidades dos anos anteriores, pois não correspondem diretamente ao conteúdo específico do 9º ano e ao foco em triângulos retângulos.",
+      "selecionadas": [
+        {
+          "codigo": "EF09MA13",
+          "tipo": "principal",
+          "justificativa": "Trata das relações métricas do triângulo retângulo, incluindo o Teorema de Pitágoras."
+        },
+        {
+          "codigo": "EF09MA14",
+          "tipo": "principal",
+          "justificativa": "Envolve a resolução e elaboração de problemas que aplicam o Teorema de Pitágoras."
+        }
+      ],
+      "descartadas": []
+    },
+    "3_plano": {
+      "titulo": "Teorema de Pitágoras",
+      "habilidades": [
+        {
+          "codigo": "EF09MA13",
+          "tipo": "principal"
+        },
+        {
+          "codigo": "EF09MA14",
+          "tipo": "principal"
+        }
+      ],
+      "objetivos": [
+        "Apresentar e explicar o teorema de Pitágoras, mostrando suas aplicações práticas.",
+        "Identificar e classificar os lados dos triângulos retângulos em diferentes situações.",
+        "Resolver problemas práticos utilizando o teorema de Pitágoras, contextualizando a matemática no dia a dia.",
+        "Elaborar e resolver equações envolvendo o teorema de Pitágoras e suas aplicações."
+      ],
+      "etapas": [
+        {
+          "minutos": 15,
+          "nome": "Introdução ao Teorema de Pitágoras",
+          "professor": "Apresenta o teorema de Pitágoras com exemplos no quadro e discute sua importância.",
+          "alunos": "Escutam atentamente e fazem anotações, participando com perguntas."
+        },
+        {
+          "minutos": 15,
+          "nome": "Identificação dos Lados do Triângulo Retângulo",
+          "professor": "Explica os conceitos de catetos e hipotenusa, desenhando triângulos retângulos no quadro.",
+          "alunos": "Identificam os lados em exemplos fornecidos pelo professor e fazem anotações."
+        },
+        {
+          "minutos": 20,
+          "nome": "Aplicação do Teorema em Problemas Práticos",
+          "professor": "Apresenta problemas contextualizados que envolvam o teorema de Pitágoras e orienta a resolução em grupos.",
+          "alunos": "Trabalham em grupos para resolver os problemas apresentados, discutindo as soluções."
+        },
+        {
+          "minutos": 20,
+          "nome": "Resolução de Equações com o Teorema de Pitágoras",
+          "professor": "Conduz a turma para resolver equações que utilizam o teorema e orienta sobre os passos adequados.",
+          "alunos": "Resolverão as equações propostas, explicando seus passos para os colegas."
+        },
+        {
+          "minutos": 30,
+          "nome": "Casos Aplicados: Distância entre Pontos no Plano Cartesiano",
+          "professor": "Apresenta um exemplo prático de como calcular a distância entre dois pontos usando o teorema.",
+          "alunos": "Resolvendo os exercícios propostos sobre a distância entre pontos no plano cartesiano, aplicando o teorema."
+        }
+      ],
+      "recursos": [
+        "Quadro branco",
+        "Marcadores",
+        "Fichas com problemas",
+        "Folhas de exercícios",
+        "Régua e compasso"
+      ],
+      "avaliacao": "A avaliação será feita por meio da observação da participação dos alunos durante as discussões, a resolução dos exercícios em grupo e individualmente, e a entrega das folhas de exercícios com problemas resolvidos. Serão considerados os critérios: entendimento do teorema, correção nas identificações, clareza nas explicações e soluções dos problemas.",
+      "exercicios": [
+        {
+          "enunciado": "Um triângulo retângulo tem um cateto medindo 6 cm e outro cateto medindo 8 cm. Calcule a hipotenusa.",
+          "resposta": "10 cm"
+        },
+        {
+          "enunciado": "Em um triângulo retângulo, a hipotenusa mede 13 cm e um cateto mede 5 cm. Calcule o comprimento do outro cateto.",
+          "resposta": "12 cm"
+        },
+        {
+          "enunciado": "Uma escada de 10 m é encostada em uma parede, formando um triângulo retângulo com o chão. Determine a altura que a escada atinge na parede se a base da escada está a 6 m do pé da parede.",
+          "resposta": "8 m"
+        },
+        {
+          "enunciado": "Calcule a distância entre os pontos A(1, 2) e B(4, 6) no plano cartesiano utilizando o teorema de Pitágoras.",
+          "resposta": "5 unidades"
+        }
+      ]
+    },
+    "4_verificacao": {
+      "verificacoes": [
+        {
+          "pergunta": "Todo código citado no plano está na fonte de verdade?",
+          "resultado": "OK",
+          "detalhe": "Os códigos EF09MA13 e EF09MA14 estão corretos e presentes na fonte de verdade."
+        },
+        {
+          "pergunta": "Os objetivos e as etapas trabalham de fato essas habilidades?",
+          "resultado": "OK",
+          "detalhe": "Os objetivos e etapas do plano estão alinhados com as habilidades selecionadas, abordando a aplicação do teorema de Pitágoras e suas relações."
+        },
+        {
+          "pergunta": "A soma dos minutos das etapas é 100?",
+          "resultado": "OK",
+          "detalhe": "A soma dos minutos das etapas é 15 + 15 + 20 + 20 + 30 = 100 minutos, conforme pedido."
+        },
+        {
+          "pergunta": "Cada resposta dos exercícios está correta? Refaça as contas independentemente.",
+          "resultado": "OK",
+          "detalhe": "As respostas dos exercícios foram verificadas e estão corretas."
+        },
+        {
+          "pergunta": "Cada enunciado fornece dados suficientes e sem ambiguidade para determinar a resposta? Há relações geométricas implícitas não justificadas?",
+          "resultado": "OK",
+          "detalhe": "Os enunciados fornecem dados claros e suficientes sem ambiguidade para determinar as respostas, e todas as relações geométricas estão Justificadas."
+        },
+        {
+          "pergunta": "As etapas contemplam explicitamente as ações exigidas pelas habilidades selecionadas, sem apenas citá-las nos objetivos?",
+          "resultado": "OK",
+          "detalhe": "As etapas incluem atividades práticas que envolvem a aplicação do teorema de Pitágoras, alinhando-se às habilidades selecionadas."
+        },
+        {
+          "pergunta": "Há adequação ao perfil da turma e critérios de avaliação observáveis?",
+          "resultado": "OK",
+          "detalhe": "Os critérios de avaliação são claros e observáveis, focando na participação dos alunos e na resolução dos exercícios."
+        }
+      ],
+      "plano": {
+        "titulo": "Teorema de Pitágoras",
+        "habilidades": [
+          {
+            "codigo": "EF09MA13",
+            "tipo": "principal"
+          },
+          {
+            "codigo": "EF09MA14",
+            "tipo": "principal"
+          }
+        ],
+        "objetivos": [
+          "Apresentar e explicar o teorema de Pitágoras, mostrando suas aplicações práticas.",
+          "Identificar e classificar os lados dos triângulos retângulos em diferentes situações.",
+          "Resolver problemas práticos utilizando o teorema de Pitágoras, contextualizando a matemática no dia a dia.",
+          "Elaborar e resolver equações envolvendo o teorema de Pitágoras e suas aplicações."
+        ],
+        "etapas": [
+          {
+            "minutos": 15,
+            "nome": "Introdução ao Teorema de Pitágoras",
+            "professor": "Apresenta o teorema de Pitágoras com exemplos no quadro e discute sua importância.",
+            "alunos": "Escutam atentamente e fazem anotações, participando com perguntas."
+          },
+          {
+            "minutos": 15,
+            "nome": "Identificação dos Lados do Triângulo Retângulo",
+            "professor": "Explica os conceitos de catetos e hipotenusa, desenhando triângulos retângulos no quadro.",
+            "alunos": "Identificam os lados em exemplos fornecidos pelo professor e fazem anotações."
+          },
+          {
+            "minutos": 20,
+            "nome": "Aplicação do Teorema em Problemas Práticos",
+            "professor": "Apresenta problemas contextualizados que envolvam o teorema de Pitágoras e orienta a resolução em grupos.",
+            "alunos": "Trabalham em grupos para resolver os problemas apresentados, discutindo as soluções."
+          },
+          {
+            "minutos": 20,
+            "nome": "Resolução de Equações com o Teorema de Pitágoras",
+            "professor": "Conduz a turma para resolver equações que utilizam o teorema e orienta sobre os passos adequados.",
+            "alunos": "Resolverão as equações propostas, explicando seus passos para os colegas."
+          },
+          {
+            "minutos": 30,
+            "nome": "Casos Aplicados: Distância entre Pontos no Plano Cartesiano",
+            "professor": "Apresenta um exemplo prático de como calcular a distância entre dois pontos usando o teorema.",
+            "alunos": "Resolvendo os exercícios propostos sobre a distância entre pontos no plano cartesiano, aplicando o teorema."
+          }
+        ],
+        "recursos": [
+          "Quadro branco",
+          "Marcadores",
+          "Fichas com problemas",
+          "Folhas de exercícios",
+          "Régua e compasso"
+        ],
+        "avaliacao": "A avaliação será feita por meio da observação da participação dos alunos durante as discussões, a resolução dos exercícios em grupo e individualmente, e a entrega das folhas de exercícios com problemas resolvidos. Serão considerados os critérios: entendimento do teorema, correção nas identificações, clareza nas explicações e soluções dos problemas.",
+        "exercicios": [
+          {
+            "enunciado": "Um triângulo retângulo tem um cateto medindo 6 cm e outro cateto medindo 8 cm. Calcule a hipotenusa.",
+            "resposta": "10 cm"
+          },
+          {
+            "enunciado": "Em um triângulo retângulo, a hipotenusa mede 13 cm e um cateto mede 5 cm. Calcule o comprimento do outro cateto.",
+            "resposta": "12 cm"
+          },
+          {
+            "enunciado": "Uma escada de 10 m é encostada em uma parede, formando um triângulo retângulo com o chão. Determine a altura que a escada atinge na parede se a base da escada está a 6 m do pé da parede.",
+            "resposta": "8 m"
+          },
+          {
+            "enunciado": "Calcule a distância entre os pontos A(1, 2) e B(4, 6) no plano cartesiano utilizando o teorema de Pitágoras.",
+            "resposta": "5 unidades"
+          }
+        ]
+      }
+    }
+  },
+  "resultado": {
+    "habilidades": [
+      "EF09MA13",
+      "EF09MA14"
+    ],
+    "verificacoes_codigo": [
+      {
+        "pergunta": "Todos os códigos do plano final vêm da base BNCC e foram selecionados?",
+        "resultado": "OK",
+        "detalhe": "Códigos conferidos com a base."
+      },
+      {
+        "pergunta": "A soma dos tempos das etapas é 100 minutos?",
+        "resultado": "OK",
+        "detalhe": "Soma das etapas: 100 min."
+      }
+    ]
+  }
+}

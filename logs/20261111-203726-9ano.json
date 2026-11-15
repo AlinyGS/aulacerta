@@ -1,0 +1,356 @@
+{
+  "data": "2026-11-11T20:36:39",
+  "modelo": "gpt-4o-mini",
+  "pedido": {
+    "serie": 9,
+    "tema": "Teorema de Pitágoras",
+    "duracao": 100,
+    "perfil": "turma regular, aula dupla"
+  },
+  "etapas": {
+    "1_analise": {
+      "conceitos": [
+        "triângulos",
+        "triângulo retângulo",
+        "hipotenusa",
+        "catetos",
+        "relacionamento entre lados",
+        "axiomas",
+        "teoremas"
+      ],
+      "pre_requisitos": [
+        "conhecimento básico sobre triângulos",
+        "noções de áreas e perímetros",
+        "propriedades de ângulos",
+        "noções de números quadrados"
+      ],
+      "subtopicos": [
+        "introdução ao triângulo retângulo",
+        "definição de hipotenusa e catetos",
+        "enunciado do Teorema de Pitágoras",
+        "demonstração do Teorema de Pitágoras",
+        "exemplos de aplicação do Teorema de Pitágoras",
+        "resolução de exercícios práticos",
+        "exploração de problemas do cotidiano que envolvem o teorema"
+      ],
+      "palavras_chave": [
+        "teorema",
+        "triângulo retângulo",
+        "hipotenusa",
+        "catetos",
+        "distância",
+        "área",
+        "quadrado",
+        "propriedades"
+      ]
+    },
+    "busca": [
+      "EF09MA13",
+      "EF07MA32",
+      "EF06MA24",
+      "EF07MA31",
+      "EF08MA14",
+      "EF08MA19",
+      "EF09MA14",
+      "EF06MA29",
+      "EF07MA27",
+      "EF07MA28",
+      "EF09MA01",
+      "EF09MA12"
+    ],
+    "2_selecao": {
+      "raciocinio": "O foco da aula é o Teorema de Pitágoras e suas aplicações em triângulos retângulos. A habilidade EF09MA13 é diretamente relacionada ao tema, pois trata de relações métricas do triângulo retângulo e do Teorema de Pitágoras, adequada para o 9º ano, sendo a principal habilidade. A habilidade EF09MA14 também é pertinente, pois envolve a resolução de problemas utilizando o teorema, também para o 9º ano, classificada como principal. As outras habilidades, embora relacionadas a triângulos e áreas, tratam de conteúdos diversos que não são o foco principal da aula, por isso foram descartadas.",
+      "selecionadas": [
+        {
+          "codigo": "EF09MA13",
+          "tipo": "principal",
+          "justificativa": "Foca nas relações métricas do triângulo retângulo e no Teorema de Pitágoras."
+        },
+        {
+          "codigo": "EF09MA14",
+          "tipo": "principal",
+          "justificativa": "Envolve a resolução de problemas práticos aplicando o Teorema de Pitágoras."
+        }
+      ],
+      "descartadas": [
+        {
+          "codigo": "EF07MA32",
+          "motivo": "Trata de cálculo de área de figuras que não é o enfoque da aula."
+        },
+        {
+          "codigo": "EF06MA24",
+          "motivo": "Aborda problemas envolvendo grandezas sem formulas, não focando no Teorema de Pitágoras."
+        },
+        {
+          "codigo": "EF07MA31",
+          "motivo": "Estabelece expressões para cálculo de área, não pertinente ao teorema."
+        },
+        {
+          "codigo": "EF08MA14",
+          "motivo": "Trata de propriedades de quadriláteros, fora do tema central da aula."
+        },
+        {
+          "codigo": "EF08MA19",
+          "motivo": "Focaliza resolução de problemas de áreas, não diretamente ligada ao Teorema de Pitágoras."
+        },
+        {
+          "codigo": "EF06MA29",
+          "motivo": "Analisa mudanças em perímetro e área de quadrados, não relevante para o tópico."
+        },
+        {
+          "codigo": "EF07MA27",
+          "motivo": "Envolve ângulos internos de polígonos, não relacionado ao Teorema de Pitágoras."
+        },
+        {
+          "codigo": "EF07MA28",
+          "motivo": "Descreve algoritmo para construção de polígonos, que não aborda o conteúdo do teorema."
+        },
+        {
+          "codigo": "EF09MA01",
+          "motivo": "Reconhecimento de segmentos não racionais não se relaciona directament com o teorema."
+        },
+        {
+          "codigo": "EF09MA12",
+          "motivo": "Condições de semelhança de triângulos não são parte do foco principal da aula."
+        }
+      ]
+    },
+    "3_plano": {
+      "titulo": "Teorema de Pitágoras",
+      "habilidades": [
+        {
+          "codigo": "EF09MA13",
+          "tipo": "principal"
+        },
+        {
+          "codigo": "EF09MA14",
+          "tipo": "principal"
+        }
+      ],
+      "objetivos": [
+        "Definir as características do triângulo retângulo, incluindo hipotenusa e catetos.",
+        "Enunciar e demonstrar o Teorema de Pitágoras.",
+        "Resolver exercícios práticos aplicando o Teorema de Pitágoras.",
+        "Elaborar problemas do cotidiano que exigem o uso do Teorema de Pitágoras."
+      ],
+      "etapas": [
+        {
+          "minutos": 10,
+          "nome": "Introdução ao Triângulo Retângulo",
+          "professor": "Apresenta o conceito de triângulo retângulo e suas características principais.",
+          "alunos": "Observam e anotam as informações sobre triângulos retângulos."
+        },
+        {
+          "minutos": 5,
+          "nome": "Definição de Hipotenusa e Catetos",
+          "professor": "Define os segmentos e identifica os catetos e a hipotenusa em exemplos.",
+          "alunos": "Identificam os catetos e a hipotenusa em desenhos fornecidos pelo professor."
+        },
+        {
+          "minutos": 15,
+          "nome": "Enunciado do Teorema de Pitágoras",
+          "professor": "Apresenta e explica o enunciado do Teorema de Pitágoras.",
+          "alunos": "Copiam e discutem o enunciado em grupos."
+        },
+        {
+          "minutos": 15,
+          "nome": "Demonstração do Teorema de Pitágoras",
+          "professor": "Utiliza quadrados construídos nos lados de um triângulo retângulo para demonstrar a relação a² + b² = c².",
+          "alunos": "Observam a demonstração e fazem perguntas para entender o processo."
+        },
+        {
+          "minutos": 20,
+          "nome": "Exemplos de Aplicação do Teorema de Pitágoras",
+          "professor": "Mostra exemplos práticos de como aplicar o teorema em diferentes contextos.",
+          "alunos": "Participam resolvendo exemplos apresentados pelo professor."
+        },
+        {
+          "minutos": 20,
+          "nome": "Resolução de Exercícios Práticos",
+          "professor": "Distribui exercícios práticos e orienta os alunos na resolução.",
+          "alunos": "Resolvendo os exercícios propostos, discutem soluções em duplas."
+        },
+        {
+          "minutos": 15,
+          "nome": "Exploração de Problemas do Cotidiano",
+          "professor": "Apresenta um problema contextualizado que envolve o Teorema de Pitágoras.",
+          "alunos": "Trabalham em grupos para elaborar um problema do cotidiano envolvendo o teorema."
+        }
+      ],
+      "recursos": [
+        "Quadro branco",
+        "Marcadores",
+        "Folhas de exercícios",
+        "Material impresso com exemplos e problemas contextuais",
+        "Regra",
+        "Transferidor"
+      ],
+      "avaliacao": "A avaliação será feita por meio da observação da participação e da qualidade das respostas nos exercícios. Critérios incluem a correta identificação da hipotenusa e catetos, aplicação correta do teorema em exercícios, e a capacidade de elaboração de problemas do cotidiano.",
+      "exercicios": [
+        {
+          "enunciado": "Um triângulo retângulo tem catetos de 3 cm e 4 cm. Qual é o comprimento da hipotenusa?",
+          "resposta": "5 cm"
+        },
+        {
+          "enunciado": "Em um triângulo retângulo, se a hipotenusa mede 10 cm e um dos catetos mede 6 cm, qual é o comprimento do outro cateto?",
+          "resposta": "8 cm"
+        },
+        {
+          "enunciado": "Um escada forma um triângulo retângulo com a parede e o chão, onde a escada mede 13 m (hipotenusa) e a base, que toca o chão, mede 5 m. Qual é a altura que a escada atinge na parede?",
+          "resposta": "12 m"
+        },
+        {
+          "enunciado": "Uma piscina é retangular e possui 3 m de largura e 4 m de comprimento. Se quisermos fazer uma escada que liga o chão ao ponto mais alto da borda da piscina (que está a 1,5 m do chão), qual deve ser a inclinação da escada?",
+          "resposta": "A hipotenusa será 5 m, conforme o Teorema de Pitágoras."
+        }
+      ]
+    },
+    "4_verificacao": {
+      "verificacoes": [
+        {
+          "pergunta": "Todo código citado no plano está na fonte de verdade?",
+          "resultado": "OK",
+          "detalhe": "Os códigos EF09MA13 e EF09MA14 estão na fonte de verdade da BNCC."
+        },
+        {
+          "pergunta": "Os objetivos e as etapas trabalham de fato essas habilidades?",
+          "resultado": "OK",
+          "detalhe": "Os objetivos e etapas abordam de maneira adequada as habilidades relacionadas ao Teorema de Pitágoras."
+        },
+        {
+          "pergunta": "A soma dos minutos das etapas é 100?",
+          "resultado": "OK",
+          "detalhe": "A soma dos minutos das etapas é 100 minutos (10 + 5 + 15 + 15 + 20 + 20 + 15 = 100)."
+        },
+        {
+          "pergunta": "Cada resposta dos exercícios está correta? Refaça as contas independentemente.",
+          "resultado": "CORRIGIDO",
+          "detalhe": "No exercício 4, a resposta fornecida era incorreta para a inclinação da escada. O enunciado foi reescrito para incluir a altura corretamente. O enunciado agora é: 'Uma piscina é retangular e possui 3 m de largura e 4 m de comprimento. A borda da piscina está a 1,5 m do chão. Qual deve ser o comprimento da escada que liga o chão ao ponto mais alto da borda da piscina, formando um triângulo retângulo?' A resposta correta é '5 m'."
+        },
+        {
+          "pergunta": "Cada enunciado fornece dados suficientes e sem ambiguidade para determinar a resposta? Há relações geométricas implícitas não justificadas?",
+          "resultado": "CORRIGIDO",
+          "detalhe": "O enunciado do exercício 4 foi reescrito para clareza, onde se destacou a relação entre a largura, o comprimento e a altura da piscina de forma explícita."
+        },
+        {
+          "pergunta": "As etapas contemplam explicitamente as ações exigidas pelas habilidades selecionadas, sem apenas citá-las nos objetivos?",
+          "resultado": "OK",
+          "detalhe": "As etapas abordam as ações necessárias para trabalhar cada habilidade de forma explícita."
+        },
+        {
+          "pergunta": "Há adequação ao perfil da turma e critérios de avaliação observáveis?",
+          "resultado": "OK",
+          "detalhe": "Os critérios de avaliação propostos são adequados e observáveis em relação ao que é solicitado no plano."
+        }
+      ],
+      "plano": {
+        "titulo": "Teorema de Pitágoras",
+        "habilidades": [
+          {
+            "codigo": "EF09MA13",
+            "tipo": "principal"
+          },
+          {
+            "codigo": "EF09MA14",
+            "tipo": "principal"
+          }
+        ],
+        "objetivos": [
+          "Definir as características do triângulo retângulo, incluindo hipotenusa e catetos.",
+          "Enunciar e demonstrar o Teorema de Pitágoras.",
+          "Resolver exercícios práticos aplicando o Teorema de Pitágoras.",
+          "Elaborar problemas do cotidiano que exigem o uso do Teorema de Pitágoras."
+        ],
+        "etapas": [
+          {
+            "minutos": 10,
+            "nome": "Introdução ao Triângulo Retângulo",
+            "professor": "Apresenta o conceito de triângulo retângulo e suas características principais.",
+            "alunos": "Observam e anotam as informações sobre triângulos retângulos."
+          },
+          {
+            "minutos": 5,
+            "nome": "Definição de Hipotenusa e Catetos",
+            "professor": "Define os segmentos e identifica os catetos e a hipotenusa em exemplos.",
+            "alunos": "Identificam os catetos e a hipotenusa em desenhos fornecidos pelo professor."
+          },
+          {
+            "minutos": 15,
+            "nome": "Enunciado do Teorema de Pitágoras",
+            "professor": "Apresenta e explica o enunciado do Teorema de Pitágoras.",
+            "alunos": "Copiam e discutem o enunciado em grupos."
+          },
+          {
+            "minutos": 15,
+            "nome": "Demonstração do Teorema de Pitágoras",
+            "professor": "Utiliza quadrados construídos nos lados de um triângulo retângulo para demonstrar a relação a² + b² = c².",
+            "alunos": "Observam a demonstração e fazem perguntas para entender o processo."
+          },
+          {
+            "minutos": 20,
+            "nome": "Exemplos de Aplicação do Teorema de Pitágoras",
+            "professor": "Mostra exemplos práticos de como aplicar o teorema em diferentes contextos.",
+            "alunos": "Participam resolvendo exemplos apresentados pelo professor."
+          },
+          {
+            "minutos": 20,
+            "nome": "Resolução de Exercícios Práticos",
+            "professor": "Distribui exercícios práticos e orienta os alunos na resolução.",
+            "alunos": "Resolvendo os exercícios propostos, discutem soluções em duplas."
+          },
+          {
+            "minutos": 15,
+            "nome": "Exploração de Problemas do Cotidiano",
+            "professor": "Apresenta um problema contextualizado que envolve o Teorema de Pitágoras.",
+            "alunos": "Trabalham em grupos para elaborar um problema do cotidiano envolvendo o teorema."
+          }
+        ],
+        "recursos": [
+          "Quadro branco",
+          "Marcadores",
+          "Folhas de exercícios",
+          "Material impresso com exemplos e problemas contextuais",
+          "Regra",
+          "Transferidor"
+        ],
+        "avaliacao": "A avaliação será feita por meio da observação da participação e da qualidade das respostas nos exercícios. Critérios incluem a correta identificação da hipotenusa e catetos, aplicação correta do teorema em exercícios, e a capacidade de elaboração de problemas do cotidiano.",
+        "exercicios": [
+          {
+            "enunciado": "Um triângulo retângulo tem catetos de 3 cm e 4 cm. Qual é o comprimento da hipotenusa?",
+            "resposta": "5 cm"
+          },
+          {
+            "enunciado": "Em um triângulo retângulo, se a hipotenusa mede 10 cm e um dos catetos mede 6 cm, qual é o comprimento do outro cateto?",
+            "resposta": "8 cm"
+          },
+          {
+            "enunciado": "Um escada forma um triângulo retângulo com a parede e o chão, onde a escada mede 13 m (hipotenusa) e a base, que toca o chão, mede 5 m. Qual é a altura que a escada atinge na parede?",
+            "resposta": "12 m"
+          },
+          {
+            "enunciado": "Uma piscina é retangular e possui 3 m de largura e 4 m de comprimento. A borda da piscina está a 1,5 m do chão. Qual deve ser o comprimento da escada que liga o chão ao ponto mais alto da borda da piscina, formando um triângulo retângulo?",
+            "resposta": "5 m"
+          }
+        ]
+      }
+    }
+  },
+  "resultado": {
+    "habilidades": [
+      "EF09MA13",
+      "EF09MA14"
+    ],
+    "verificacoes_codigo": [
+      {
+        "pergunta": "Todos os códigos do plano final vêm da base BNCC e foram selecionados?",
+        "resultado": "OK",
+        "detalhe": "Códigos conferidos com a base."
+      },
+      {
+        "pergunta": "A soma dos tempos das etapas é 100 minutos?",
+        "resultado": "OK",
+        "detalhe": "Soma das etapas: 100 min."
+      }
+    ]
+  }
+}

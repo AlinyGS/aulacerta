@@ -1,0 +1,299 @@
+{
+  "data": "2026-11-11T19:58:46",
+  "modelo": "gpt-4o-mini",
+  "pedido": {
+    "serie": 9,
+    "tema": "Teorema de Pitágoras e suas aplicações",
+    "duracao": 100,
+    "perfil": "TURMA COM POUCAS HABILIDADES"
+  },
+  "etapas": {
+    "1_analise": {
+      "conceitos": [
+        "triângulos",
+        "triângulo retângulo",
+        "catetos",
+        "hipotenusa",
+        "propriedades dos triângulos",
+        "espaço e formas",
+        "medidas e comparação",
+        "razão e proporção"
+      ],
+      "pre_requisitos": [
+        "noções básicas de geometria",
+        "entendimento de ângulos",
+        "conhecimento sobre medidas de comprimento",
+        "capacidade de resolver operações básicas de adição, subtração e multiplicação"
+      ],
+      "subtopicos": [
+        "1. Introdução ao triângulo retângulo e suas partes",
+        "2. Definição do Teorema de Pitágoras",
+        "3. Exemplos e demonstração do Teorema de Pitágoras",
+        "4. Aplicações práticas do Teorema de Pitágoras em problemas do cotidiano",
+        "5. Resolução de exercícios simples utilizando o Teorema de Pitágoras",
+        "6. Avaliação rápida do aprendizado (quiz ou atividades em grupo)"
+      ],
+      "palavras_chave": [
+        "teorema",
+        "pitágoras",
+        "triângulos",
+        "hipotenusa",
+        "catetos",
+        "geometria",
+        "aplicações",
+        "medidas"
+      ]
+    },
+    "busca": [
+      "EF09MA13",
+      "EF09MA14",
+      "EF07MA25",
+      "EF08MA19",
+      "EF09MA01",
+      "EF06MA19",
+      "EF06MA24",
+      "EF06MA25",
+      "EF07MA24",
+      "EF07MA26",
+      "EF07MA27",
+      "EF07MA28"
+    ],
+    "2_selecao": {
+      "raciocinio": "O tema aborda o Teorema de Pitágoras e suas aplicações. A habilidade EF09MA13 é principal, pois envolve a demonstração das relações métricas no triângulo retângulo, incluindo o teorema de Pitágoras, que será trabalhado na aula. A habilidade EF09MA14 é também principal, já que envolve a elaboração e resolução de problemas práticos aplicando o teorema, que é parte do plano. As demais habilidades são descartadas por não tratarem diretamente do Teorema de Pitágoras ou do triângulo retângulo de forma específica.",
+      "selecionadas": [
+        {
+          "codigo": "EF09MA13",
+          "tipo": "principal",
+          "justificativa": "Demonstra a relação métrica do triângulo retângulo, incluindo o Teorema de Pitágoras."
+        },
+        {
+          "codigo": "EF09MA14",
+          "tipo": "principal",
+          "justificativa": "Envolve a resolução e elaboração de problemas aplicando o Teorema de Pitágoras."
+        }
+      ],
+      "descartadas": []
+    },
+    "3_plano": {
+      "titulo": "Teorema de Pitágoras e suas aplicações",
+      "habilidades": [
+        {
+          "codigo": "EF09MA13",
+          "tipo": "principal"
+        },
+        {
+          "codigo": "EF09MA14",
+          "tipo": "principal"
+        }
+      ],
+      "objetivos": [
+        "Identificar as partes do triângulo retângulo e seus ângulos.",
+        "Definir e demonstrar o Teorema de Pitágoras através de um modelo visual.",
+        "Resolver problemas práticos utilizando o Teorema de Pitágoras.",
+        "Elaborar um pequeno quiz ou atividade em grupo para avaliar a compreensão do tema."
+      ],
+      "etapas": [
+        {
+          "minutos": 10,
+          "nome": "Introdução ao triângulo retângulo",
+          "professor": "Apresenta o triângulo retângulo, identificando catetos e hipotenusa, e propõe exemplos simples.",
+          "alunos": "Observam e anotam as partes do triângulo retângulo no quadro."
+        },
+        {
+          "minutos": 15,
+          "nome": "Definição do Teorema de Pitágoras",
+          "professor": "Explica o Teorema de Pitágoras e escreve a fórmula a² + b² = c² no quadro.",
+          "alunos": "Repetem a fórmula e discutem em pequenos grupos o que ela significa."
+        },
+        {
+          "minutos": 20,
+          "nome": "Exemplos e demonstração do Teorema de Pitágoras",
+          "professor": "Usa um triângulo retângulo desenhado no quadro para mostrar a relação entre lados e ângulos, fazendo um exemplo numérico.",
+          "alunos": "Assistem à demonstração e ajudam a calcular os valores dos lados do triângulo proposto."
+        },
+        {
+          "minutos": 25,
+          "nome": "Aplicações práticas do Teorema de Pitágoras",
+          "professor": "Apresenta problemas do cotidiano que podem ser resolvidos com o Teorema de Pitágoras.",
+          "alunos": "Trabalham em duplas para discutir como resolver um problema contextualizado apresentado pelo professor."
+        },
+        {
+          "minutos": 20,
+          "nome": "Resolução de exercícios simples",
+          "professor": "Distribui exercícios escritos e supervisiona a resolução, fornecendo assistência necessária.",
+          "alunos": "Resolvendo em cadernos os exercícios dados, com foco em aplicar o Teorema de Pitágoras."
+        },
+        {
+          "minutos": 10,
+          "nome": "Avaliação rápida do aprendizado",
+          "professor": "Aplica um pequeno quiz, contendo perguntas objetivas sobre o que foi ensinado.",
+          "alunos": "Respondem o quiz individualmente, demonstrando a compreensão do conteúdo."
+        }
+      ],
+      "recursos": [
+        "Quadro branco",
+        "Marcadores",
+        "Folhas de papel para exercícios",
+        "Exemplos de triângulos em uma apresentação visual"
+      ],
+      "avaliacao": "A avaliação será realizada por meio do quiz ao final da aula, onde os alunos devem demonstrar a compreensão dos conceitos apresentados. Os critérios incluem: acurácia nas respostas, participação nas discussões em grupo e habilidade em resolver os exercícios propostos.",
+      "exercicios": [
+        {
+          "enunciado": "Calcule a hipotenusa de um triângulo retângulo onde os catetos medem 3 cm e 4 cm.",
+          "resposta": "5 cm"
+        },
+        {
+          "enunciado": "Em um triângulo retângulo, um cateto mede 5 m e a hipotenusa mede 13 m. Qual é o comprimento do outro cateto?",
+          "resposta": "12 m"
+        },
+        {
+          "enunciado": "Um escada está encostada em uma parede, formando um triângulo retângulo, onde a escada (hipotenusa) mede 10 m e a altura da parede (cateto) é de 6 m. Qual é a distância da base da escada à parede?",
+          "resposta": "8 m"
+        },
+        {
+          "enunciado": "Um terreno tem o formato de um triângulo retângulo, com um cateto de 9 m e a hipotenusa de 15 m. Qual é o comprimento do outro cateto?",
+          "resposta": "12 m"
+        }
+      ]
+    },
+    "4_verificacao": {
+      "verificacoes": [
+        {
+          "pergunta": "Todo código citado no plano está na fonte de verdade?",
+          "resultado": "OK",
+          "detalhe": "Os códigos EF09MA13 e EF09MA14 estão de acordo com a fonte de verdade da BNCC."
+        },
+        {
+          "pergunta": "Os objetivos e as etapas trabalham de fato essas habilidades?",
+          "resultado": "OK",
+          "detalhe": "Os objetivos e etapas do plano estão alinhados com as habilidades mencionadas, abordando aspectos do Teorema de Pitágoras e suas aplicações."
+        },
+        {
+          "pergunta": "A soma dos minutos das etapas é 100?",
+          "resultado": "OK",
+          "detalhe": "A soma dos minutos das etapas é 10 + 15 + 20 + 25 + 20 + 10 = 100 minutos."
+        },
+        {
+          "pergunta": "Cada resposta dos exercícios está correta? Refaça as contas independentemente.",
+          "resultado": "OK",
+          "detalhe": "As respostas dos exercícios estão corretas e foram confirmadas individualmente: 1) 5 cm; 2) 12 m; 3) 8 m; 4) 12 m."
+        },
+        {
+          "pergunta": "Cada enunciado fornece dados suficientes e sem ambiguidade para determinar a resposta? Há relações geométricas implícitas não justificadas?",
+          "resultado": "CORRIGIDO",
+          "detalhe": "O enunciado do exercício 3 foi alterado para maior clareza: \"A escada está encostada em uma parede, formando um triângulo retângulo, onde a hipotenusa (a escada) mede 10 m e a altura da parede (um cateto) é de 6 m. Qual é a distância (o outro cateto) da base da escada à parede?\" A resposta permanece 8 m."
+        },
+        {
+          "pergunta": "As etapas contemplam explicitamente as ações exigidas pelas habilidades selecionadas, sem apenas citá-las nos objetivos?",
+          "resultado": "OK",
+          "detalhe": "As etapas incluem ações e práticas que envolvem as habilidades de aplicar e resolver problemas utilizando o Teorema de Pitágoras."
+        },
+        {
+          "pergunta": "Há adequação ao perfil da turma e critérios de avaliação observáveis?",
+          "resultado": "OK",
+          "detalhe": "Os critérios de avaliação são claros e apropriados para o nível do 9º ano, incluindo participação e acurácia."
+        }
+      ],
+      "plano": {
+        "titulo": "Teorema de Pitágoras e suas aplicações",
+        "habilidades": [
+          {
+            "codigo": "EF09MA13",
+            "tipo": "principal"
+          },
+          {
+            "codigo": "EF09MA14",
+            "tipo": "principal"
+          }
+        ],
+        "objetivos": [
+          "Identificar as partes do triângulo retângulo e seus ângulos.",
+          "Definir e demonstrar o Teorema de Pitágoras através de um modelo visual.",
+          "Resolver problemas práticos utilizando o Teorema de Pitágoras.",
+          "Elaborar um pequeno quiz ou atividade em grupo para avaliar a compreensão do tema."
+        ],
+        "etapas": [
+          {
+            "minutos": 10,
+            "nome": "Introdução ao triângulo retângulo",
+            "professor": "Apresenta o triângulo retângulo, identificando catetos e hipotenusa, e propõe exemplos simples.",
+            "alunos": "Observam e anotam as partes do triângulo retângulo no quadro."
+          },
+          {
+            "minutos": 15,
+            "nome": "Definição do Teorema de Pitágoras",
+            "professor": "Explica o Teorema de Pitágoras e escreve a fórmula a² + b² = c² no quadro.",
+            "alunos": "Repetem a fórmula e discutem em pequenos grupos o que ela significa."
+          },
+          {
+            "minutos": 20,
+            "nome": "Exemplos e demonstração do Teorema de Pitágoras",
+            "professor": "Usa um triângulo retângulo desenhado no quadro para mostrar a relação entre lados e ângulos, fazendo um exemplo numérico.",
+            "alunos": "Assistem à demonstração e ajudam a calcular os valores dos lados do triângulo proposto."
+          },
+          {
+            "minutos": 25,
+            "nome": "Aplicações práticas do Teorema de Pitágoras",
+            "professor": "Apresenta problemas do cotidiano que podem ser resolvidos com o Teorema de Pitágoras.",
+            "alunos": "Trabalham em duplas para discutir como resolver um problema contextualizado apresentado pelo professor."
+          },
+          {
+            "minutos": 20,
+            "nome": "Resolução de exercícios simples",
+            "professor": "Distribui exercícios escritos e supervisiona a resolução, fornecendo assistência necessária.",
+            "alunos": "Resolvendo em cadernos os exercícios dados, com foco em aplicar o Teorema de Pitágoras."
+          },
+          {
+            "minutos": 10,
+            "nome": "Avaliação rápida do aprendizado",
+            "professor": "Aplica um pequeno quiz, contendo perguntas objetivas sobre o que foi ensinado.",
+            "alunos": "Respondem o quiz individualmente, demonstrando a compreensão do conteúdo."
+          }
+        ],
+        "recursos": [
+          "Quadro branco",
+          "Marcadores",
+          "Folhas de papel para exercícios",
+          "Exemplos de triângulos em uma apresentação visual"
+        ],
+        "avaliacao": "A avaliação será realizada por meio do quiz ao final da aula, onde os alunos devem demonstrar a compreensão dos conceitos apresentados. Os critérios incluem: acurácia nas respostas, participação nas discussões em grupo e habilidade em resolver os exercícios propostos.",
+        "exercicios": [
+          {
+            "enunciado": "Calcule a hipotenusa de um triângulo retângulo onde os catetos medem 3 cm e 4 cm.",
+            "resposta": "5 cm"
+          },
+          {
+            "enunciado": "Em um triângulo retângulo, um cateto mede 5 m e a hipotenusa mede 13 m. Qual é o comprimento do outro cateto?",
+            "resposta": "12 m"
+          },
+          {
+            "enunciado": "A escada está encostada em uma parede, formando um triângulo retângulo, onde a hipotenusa (a escada) mede 10 m e a altura da parede (um cateto) é de 6 m. Qual é a distância (o outro cateto) da base da escada à parede?",
+            "resposta": "8 m"
+          },
+          {
+            "enunciado": "Um terreno tem o formato de um triângulo retângulo, com um cateto de 9 m e a hipotenusa de 15 m. Qual é o comprimento do outro cateto?",
+            "resposta": "12 m"
+          }
+        ]
+      }
+    }
+  },
+  "resultado": {
+    "habilidades": [
+      "EF09MA13",
+      "EF09MA14"
+    ],
+    "verificacoes_codigo": [
+      {
+        "pergunta": "Todos os códigos do plano final vêm da base BNCC e foram selecionados?",
+        "resultado": "OK",
+        "detalhe": "Códigos conferidos com a base."
+      },
+      {
+        "pergunta": "A soma dos tempos das etapas é 100 minutos?",
+        "resultado": "OK",
+        "detalhe": "Soma das etapas: 100 min."
+      }
+    ]
+  }
+}

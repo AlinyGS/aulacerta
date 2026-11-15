@@ -1,0 +1,275 @@
+{
+  "data": "2026-11-11T21:18:32",
+  "modelo": "gpt-4o-mini",
+  "pedido": {
+    "serie": 8,
+    "tema": "Equação do 1° grau",
+    "duracao": 50,
+    "perfil": "A turma tem bastante dificuldade nas operações."
+  },
+  "etapas": {
+    "1_analise": {
+      "conceitos": [
+        "variáveis",
+        "igualdade",
+        "operações inversas",
+        "resolução de equações",
+        "propriedades das igualdades"
+      ],
+      "pre_requisitos": [
+        "números inteiros",
+        "adição e subtração",
+        "multiplicação e divisão",
+        "propriedades das operações"
+      ],
+      "subtopicos": [
+        "introdução às variáveis",
+        "o que é uma equação do 1° grau",
+        "isolamento da incógnita",
+        "resolução de equações simples"
+      ],
+      "palavras_chave": [
+        "equações",
+        "incógnita",
+        "igualdade",
+        "resolução",
+        "termos",
+        "variáveis",
+        "operadores",
+        "expressões algébricas"
+      ]
+    },
+    "busca": [
+      "EF08MA08",
+      "EF07MA13",
+      "EF08MA06",
+      "EF08MA07",
+      "EF08MA12",
+      "EF07MA17",
+      "EF07MA18",
+      "EF08MA09",
+      "EF06MA03",
+      "EF06MA05",
+      "EF07MA15",
+      "EF07MA16"
+    ],
+    "2_selecao": {
+      "raciocinio": "EF07MA13 trata da compreensão da ideia de variável, o que é fundamental para a introdução de equações do 1º grau. A habilidade EF08MA06 envolve a resolução de problemas com expressões algébricas, que é diretamente aplicável ao isolamento da incógnita. EF08MA08, embora relevante, trata de sistemas de equações com duas incógnitas, que não se aplicam neste contexto específico.",
+      "selecionadas": [
+        {
+          "codigo": "EF07MA13",
+          "tipo": "retomada",
+          "justificativa": "Fundamental para a introdução às variáveis."
+        },
+        {
+          "codigo": "EF08MA06",
+          "tipo": "principal",
+          "justificativa": "Diretamente ligado à resolução de equações e isolamento da incógnita."
+        }
+      ],
+      "descartadas": [
+        {
+          "codigo": "EF08MA08",
+          "motivo": "Trata de sistemas de equações com duas incógnitas, que não são foco do tema."
+        }
+      ]
+    },
+    "3_plano": {
+      "titulo": "Introdução às Equações do 1° grau",
+      "habilidades": [
+        {
+          "codigo": "EF07MA13",
+          "tipo": "retomada"
+        },
+        {
+          "codigo": "EF08MA06",
+          "tipo": "principal"
+        }
+      ],
+      "objetivos": [
+        "Compreender a ideia de variável e diferenciá-la da incógnita.",
+        "Identificar o que caracteriza uma equação do 1° grau.",
+        "Isolar a incógnita em uma equação simples.",
+        "Resolver equações do 1° grau e problemas contextuais."
+      ],
+      "etapas": [
+        {
+          "minutos": 10,
+          "nome": "Introdução às Variáveis",
+          "professor": "Apresenta o conceito de variável como uma letra que representa um número desconhecido dentro de uma expressão.",
+          "alunos": "Escutam, fazem perguntas e dão exemplos de situações onde utilizam variáveis."
+        },
+        {
+          "minutos": 10,
+          "nome": "O que é uma Equação do 1° grau",
+          "professor": "Explica a definição de equação do 1° grau e apresenta exemplos simples no quadro.",
+          "alunos": "Observam e anotam exemplos, identificando a forma geral Ax + B = C."
+        },
+        {
+          "minutos": 15,
+          "nome": "Isolamento da Incógnita",
+          "professor": "Demonstra no quadro o passo a passo para isolar a incógnita em uma equação, usando a equação x + 3 = 7 como exemplo.",
+          "alunos": "Reproduzem o processo com a equação dada, trabalhando em duplas."
+        },
+        {
+          "minutos": 15,
+          "nome": "Resolução de Equações Simples",
+          "professor": "Apresenta exercícios que abrangem a resolução de equações do 1° grau e um problema contextualizado.",
+          "alunos": "Resolvem as equações propostas, discutindo as respostas com o professor e entre si."
+        }
+      ],
+      "recursos": [
+        "Quadro branco",
+        "Marcadores",
+        "Folhas de atividades impressas",
+        "Calculadoras simples"
+      ],
+      "avaliacao": "Durante a aula, observarei a participação dos alunos nas discussões, a capacidade de isolarem a incógnita corretamente e o acerto nas resoluções dos exercícios propostos. Um critério específico será a habilidade de identificar e resolver problemas contextuais.",
+      "exercicios": [
+        {
+          "enunciado": "Resolva a equação: 2x + 4 = 12.",
+          "resposta": "x = 4"
+        },
+        {
+          "enunciado": "Simplifique e resolva a equação: 3x - 5 = 10.",
+          "resposta": "x = 5"
+        },
+        {
+          "enunciado": "Hasan tem um número de moedas x. Se ele ganhar 8 moedas, terá 20. Representar com uma equação e resolver. (x + 8 = 20)",
+          "resposta": "x = 12"
+        },
+        {
+          "enunciado": "Em um retângulo, o comprimento é 3 vezes a largura. Se a largura é x e o perímetro é 48, determine a largura. (2x + 6x = 48)",
+          "resposta": "x = 6"
+        }
+      ]
+    },
+    "4_verificacao": {
+      "verificacoes": [
+        {
+          "pergunta": "Todo código citado no plano está na fonte de verdade?",
+          "resultado": "OK",
+          "detalhe": "Os códigos EF07MA13 e EF08MA06 estão corretamente citados e existem na fonte de verdade."
+        },
+        {
+          "pergunta": "Os objetivos e as etapas trabalham de fato essas habilidades?",
+          "resultado": "OK",
+          "detalhe": "Os objetivos e as etapas do plano correspondem às habilidades descritas."
+        },
+        {
+          "pergunta": "A soma dos minutos das etapas é 50?",
+          "resultado": "OK",
+          "detalhe": "A soma dos minutos é 10 + 10 + 15 + 15 = 50 minutos."
+        },
+        {
+          "pergunta": "Cada resposta dos exercícios está correta? Refaça as contas independentemente.",
+          "resultado": "CORRIGIDO",
+          "detalhe": " deve ser corrigido. A equação correta para o perímetro é 2(3x) + 2x = 48, o que resulta em x = 6. As respostas dos exercícios foram conferidas e, portanto, a resposta correta para exercício 4 é x = 6."
+        },
+        {
+          "pergunta": "Cada enunciado fornece dados suficientes e sem ambiguidade para determinar a resposta? Há relações geométricas implícitas não justificadas?",
+          "resultado": "CORRIGIDO",
+          "detalhe": "O enunciado do exercício 4 foi reescrito para esclarecer a relação. O novo enunciado é: 'Em um retângulo, o comprimento é 3 vezes a largura. Se a largura é x, determine a largura sabendo que o perímetro do retângulo é 48.'"
+        },
+        {
+          "pergunta": "As etapas contemplam explicitamente as ações exigidas pelas habilidades selecionadas, sem apenas citá-las nos objetivos?",
+          "resultado": "OK",
+          "detalhe": "As etapas do plano abordam as ações exigidas de maneira clara e direta."
+        },
+        {
+          "pergunta": "Há adequação ao perfil da turma e critérios de avaliação observáveis?",
+          "resultado": "OK",
+          "detalhe": "Os critérios de avaliação estão observáveis e adequados para o nível escolar."
+        }
+      ],
+      "plano": {
+        "titulo": "Introdução às Equações do 1° grau",
+        "habilidades": [
+          {
+            "codigo": "EF07MA13",
+            "tipo": "retomada"
+          },
+          {
+            "codigo": "EF08MA06",
+            "tipo": "principal"
+          }
+        ],
+        "objetivos": [
+          "Compreender a ideia de variável e diferenciá-la da incógnita.",
+          "Identificar o que caracteriza uma equação do 1° grau.",
+          "Isolar a incógnita em uma equação simples.",
+          "Resolver equações do 1° grau e problemas contextuais."
+        ],
+        "etapas": [
+          {
+            "minutos": 10,
+            "nome": "Introdução às Variáveis",
+            "professor": "Apresenta o conceito de variável como uma letra que representa um número desconhecido dentro de uma expressão.",
+            "alunos": "Escutam, fazem perguntas e dão exemplos de situações onde utilizam variáveis."
+          },
+          {
+            "minutos": 10,
+            "nome": "O que é uma Equação do 1° grau",
+            "professor": "Explica a definição de equação do 1° grau e apresenta exemplos simples no quadro.",
+            "alunos": "Observam e anotam exemplos, identificando a forma geral Ax + B = C."
+          },
+          {
+            "minutos": 15,
+            "nome": "Isolamento da Incógnita",
+            "professor": "Demonstra no quadro o passo a passo para isolar a incógnita em uma equação, usando a equação x + 3 = 7 como exemplo.",
+            "alunos": "Reproduzem o processo com a equação dada, trabalhando em duplas."
+          },
+          {
+            "minutos": 15,
+            "nome": "Resolução de Equações Simples",
+            "professor": "Apresenta exercícios que abrangem a resolução de equações do 1° grau e um problema contextualizado.",
+            "alunos": "Resolvem as equações propostas, discutindo as respostas com o professor e entre si."
+          }
+        ],
+        "recursos": [
+          "Quadro branco",
+          "Marcadores",
+          "Folhas de atividades impressas",
+          "Calculadoras simples"
+        ],
+        "avaliacao": "Durante a aula, observarei a participação dos alunos nas discussões, a capacidade de isolarem a incógnita corretamente e o acerto nas resoluções dos exercícios propostos. Um critério específico será a habilidade de identificar e resolver problemas contextuais.",
+        "exercicios": [
+          {
+            "enunciado": "Resolva a equação: 2x + 4 = 12.",
+            "resposta": "x = 4"
+          },
+          {
+            "enunciado": "Simplifique e resolva a equação: 3x - 5 = 10.",
+            "resposta": "x = 5"
+          },
+          {
+            "enunciado": "Hasan tem um número de moedas x. Se ele ganhar 8 moedas, terá 20. Representar com uma equação e resolver. (x + 8 = 20)",
+            "resposta": "x = 12"
+          },
+          {
+            "enunciado": "Em um retângulo, o comprimento é 3 vezes a largura. Se a largura é x, determine a largura sabendo que o perímetro do retângulo é 48.",
+            "resposta": "x = 6"
+          }
+        ]
+      }
+    }
+  },
+  "resultado": {
+    "habilidades": [
+      "EF07MA13",
+      "EF08MA06"
+    ],
+    "verificacoes_codigo": [
+      {
+        "pergunta": "Todos os códigos do plano final vêm da base BNCC e foram selecionados?",
+        "resultado": "OK",
+        "detalhe": "Códigos conferidos com a base."
+      },
+      {
+        "pergunta": "A soma dos tempos das etapas é 50 minutos?",
+        "resultado": "OK",
+        "detalhe": "Soma das etapas: 50 min."
+      }
+    ]
+  }
+}

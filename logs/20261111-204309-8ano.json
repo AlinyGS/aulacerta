@@ -1,0 +1,278 @@
+{
+  "data": "2026-11-11T20:42:29",
+  "modelo": "gpt-4o-mini",
+  "pedido": {
+    "serie": 8,
+    "tema": "Equação do 1° grau",
+    "duracao": 50,
+    "perfil": "A turma apresenta bastante dificuldade em associar as variáveis."
+  },
+  "etapas": {
+    "1_analise": {
+      "conceitos": [
+        "variáveis",
+        "igualdade",
+        "solução de equações",
+        "operadores",
+        "propriedades das operações",
+        "modelagem matemática"
+      ],
+      "pre_requisitos": [
+        "noções básicas de números inteiros",
+        "resolução de operações básicas (adição, subtração, multiplicação e divisão)",
+        "entendimento de variáveis e expressões simples"
+      ],
+      "subtopicos": [
+        "Introdução às variáveis",
+        "O que é uma equação do 1° grau",
+        "Propriedades das equações",
+        "Resolução de equações simples",
+        "Exercícios práticos e contextualizados"
+      ],
+      "palavras_chave": [
+        "equações",
+        "incógnita",
+        "igualdade",
+        "solução",
+        "variável",
+        "propriedades",
+        "modelo",
+        "resolução"
+      ]
+    },
+    "busca": [
+      "EF07MA18",
+      "EF08MA07",
+      "EF08MA08",
+      "EF08MA09",
+      "EF06MA14",
+      "EF07MA13",
+      "EF08MA06",
+      "EF08MA12",
+      "EF08MA13",
+      "EF08MA14",
+      "EF08MA22",
+      "EF08MA24"
+    ],
+    "2_selecao": {
+      "raciocinio": "O tema é equação do 1º grau. EF07MA18 é relevante pois trata da resolução de problemas com equações polinomiais de 1º grau e é do 7º ano, tornando-se uma retomada importante. A habilidade EF08MA06 é também pertinente, pois envolve calcular o valor numérico de expressões algébricas, o que se conecta à resolução de equações. As habilidades EF08MA07 e EF08MA08 envolvem equações com duas incógnitas e problemas com sistemas, que não são o foco do tema, portanto, são descartadas.",
+      "selecionadas": [
+        {
+          "codigo": "EF07MA18",
+          "tipo": "retomada",
+          "justificativa": "Trata de resolver e elaborar problemas com equações do 1º grau."
+        },
+        {
+          "codigo": "EF08MA06",
+          "tipo": "principal",
+          "justificativa": "Incorpora o cálculo do valor numérico de expressões que é essencial na resolução das equações."
+        }
+      ],
+      "descartadas": [
+        {
+          "codigo": "EF08MA07",
+          "motivo": "Trata de equações com duas incógnitas, que não se aplica ao foco da aula."
+        },
+        {
+          "codigo": "EF08MA08",
+          "motivo": "Envolve sistemas de equações, o que está além do tema de equações do 1º grau."
+        }
+      ]
+    },
+    "3_plano": {
+      "titulo": "Introdução às Equações do 1° Grau",
+      "habilidades": [
+        {
+          "codigo": "EF07MA18",
+          "tipo": "retomada"
+        },
+        {
+          "codigo": "EF08MA06",
+          "tipo": "principal"
+        }
+      ],
+      "objetivos": [
+        "Identificar e diferenciar variáveis e constantes em expressões algébricas.",
+        "Resolver equações do 1° grau utilizando propriedades da igualdade.",
+        "Elaborar problemas que podem ser representados por equações do 1° grau."
+      ],
+      "etapas": [
+        {
+          "minutos": 10,
+          "nome": "Introdução às variáveis",
+          "professor": "Explicar o conceito de variáveis e constantes, dando exemplos do cotidiano.",
+          "alunos": "Participar da discussão, listando exemplos de variáveis que conhecem."
+        },
+        {
+          "minutos": 15,
+          "nome": "O que é uma equação do 1° grau",
+          "professor": "Definir equação do 1° grau e apresentar a forma ax + b = c. Dar exemplo prático.",
+          "alunos": "Preencher uma tabela onde identificam a forma ax + b = c em exemplos dados pelo professor."
+        },
+        {
+          "minutos": 15,
+          "nome": "Resolução de equações simples",
+          "professor": "Demonstrar a resolução de equações simples usando propriedades da igualdade, escrevendo no quadro passo a passo.",
+          "alunos": "Resolver junto com o professor uma equação, depois tentar resolver outra de forma autônoma."
+        },
+        {
+          "minutos": 10,
+          "nome": "Exercícios práticos e contextualizados",
+          "professor": "Distribuir exercícios e monitorar os alunos enquanto resolvem. Propor um problema contextualizado.",
+          "alunos": "Resolver os exercícios propostos, discutindo em grupos e apresentando soluções para o problema contextualizado."
+        }
+      ],
+      "recursos": [
+        "Quadro branco",
+        "Marcadores",
+        "Folhas de exercícios",
+        "Lousa"
+      ],
+      "avaliacao": "Observar a participação dos alunos nas discussões e na resolução dos exercícios. Verificar a correta aplicação das propriedades durante as resoluções e a capacidade de elaborar e resolver um problema contextualizado.",
+      "exercicios": [
+        {
+          "enunciado": "Resolva a equação 3x + 5 = 20.",
+          "resposta": "x = 5."
+        },
+        {
+          "enunciado": "Resolva a equação 2x - 3 = 11.",
+          "resposta": "x = 7."
+        },
+        {
+          "enunciado": "Uma receita pede que você misture 4x + 8 litros de água. Se a mistura total é de 32 litros, quanto de água cada parte x representa?",
+          "resposta": "x = 6 litros."
+        },
+        {
+          "enunciado": "Em um triângulo retângulo, um cateto mede 6 cm e a hipotenusa mede 10 cm. Quanto mede o outro cateto? Use a relação a² + b² = c².",
+          "resposta": "O outro cateto mede 8 cm."
+        }
+      ]
+    },
+    "4_verificacao": {
+      "verificacoes": [
+        {
+          "pergunta": "Todo código citado no plano está na fonte de verdade?",
+          "resultado": "OK",
+          "detalhe": "Os códigos EF07MA18 e EF08MA06 estão conforme a fonte de verdade da BNCC."
+        },
+        {
+          "pergunta": "Os objetivos e as etapas trabalham de fato essas habilidades?",
+          "resultado": "OK",
+          "detalhe": "Os objetivos e as etapas abordam as habilidades de resolver e elaborar problemas envolvendo equações do 1° grau, que estão alinhados às habilidades escolhidas."
+        },
+        {
+          "pergunta": "A soma dos minutos das etapas é 50?",
+          "resultado": "OK",
+          "detalhe": "A soma dos minutos das etapas é 10 + 15 + 15 + 10 = 50 minutos."
+        },
+        {
+          "pergunta": "Cada resposta dos exercícios está correta? Refaça as contas independentemente.",
+          "resultado": "CORRIGIDO",
+          "detalhe": "No exercício e resposta: 'Uma receita pede que você misture 4x + 8 litros de água. Se a mistura total é de 32 litros, quanto de água cada parte x representa?', a resposta deve ser x = 6. Portanto, a adição correta para x é: 4x + 8 = 32 => 4x = 24 => x = 6. Sem alteração no enunciado. No entanto, o exercício é sobre a quantidade total de água e poderia gerar confusão. Modifiquei o enunciado para 'Uma receita pede que você misture 4 partes de x litros de água a mais 8 litros de água. Se a mistura total é de 32 litros, quantos litros de água correspondem a cada parte x?'"
+        },
+        {
+          "pergunta": "Cada enunciado fornece dados suficientes e sem ambiguidade para determinar a resposta? Há relações geométricas implícitas não justificadas?",
+          "resultado": "CORRIGIDO",
+          "detalhe": "No exercício sobre o triângulo retângulo: 'Em um triângulo retângulo, um cateto mede 6 cm e a hipotenusa mede 10 cm. Quanto mede o outro cateto? Use a relação a² + b² = c².' A resposta correta do outro cateto é '8cm', pois conforme o teorema de Pitágoras, temos 6² + b² = 10², que implica que b = 8cm. O enunciado foi ajustado para 'Em um triângulo retângulo, um cateto mede 6 cm e a hipotenusa mede 10 cm. Determine a medida do outro cateto, utilizando o teorema de Pitágoras.'"
+        },
+        {
+          "pergunta": "As etapas contemplam explicitamente as ações exigidas pelas habilidades selecionadas, sem apenas citá-las nos objetivos?",
+          "resultado": "OK",
+          "detalhe": "As etapas do plano abordam de forma prática as habilidades de resolução de problemas e elaboração de equações."
+        },
+        {
+          "pergunta": "Há adequação ao perfil da turma e critérios de avaliação observáveis?",
+          "resultado": "OK",
+          "detalhe": "Os critérios de avaliação observam a participação e a compreensão dos alunos, que se adequa ao perfil esperado da turma para a série."
+        }
+      ],
+      "plano": {
+        "titulo": "Introdução às Equações do 1° Grau",
+        "habilidades": [
+          {
+            "codigo": "EF07MA18",
+            "tipo": "retomada"
+          },
+          {
+            "codigo": "EF08MA06",
+            "tipo": "principal"
+          }
+        ],
+        "objetivos": [
+          "Identificar e diferenciar variáveis e constantes em expressões algébricas.",
+          "Resolver equações do 1° grau utilizando propriedades da igualdade.",
+          "Elaborar problemas que podem ser representados por equações do 1° grau."
+        ],
+        "etapas": [
+          {
+            "minutos": 10,
+            "nome": "Introdução às variáveis",
+            "professor": "Explicar o conceito de variáveis e constantes, dando exemplos do cotidiano.",
+            "alunos": "Participar da discussão, listando exemplos de variáveis que conhecem."
+          },
+          {
+            "minutos": 15,
+            "nome": "O que é uma equação do 1° grau",
+            "professor": "Definir equação do 1° grau e apresentar a forma ax + b = c. Dar exemplo prático.",
+            "alunos": "Preencher uma tabela onde identificam a forma ax + b = c em exemplos dados pelo professor."
+          },
+          {
+            "minutos": 15,
+            "nome": "Resolução de equações simples",
+            "professor": "Demonstrar a resolução de equações simples usando propriedades da igualdade, escrevendo no quadro passo a passo.",
+            "alunos": "Resolver junto com o professor uma equação, depois tentar resolver outra de forma autônoma."
+          },
+          {
+            "minutos": 10,
+            "nome": "Exercícios práticos e contextualizados",
+            "professor": "Distribuir exercícios e monitorar os alunos enquanto resolvem. Propor um problema contextualizado.",
+            "alunos": "Resolver os exercícios propostos, discutindo em grupos e apresentando soluções para o problema contextualizado."
+          }
+        ],
+        "recursos": [
+          "Quadro branco",
+          "Marcadores",
+          "Folhas de exercícios",
+          "Lousa"
+        ],
+        "avaliacao": "Observar a participação dos alunos nas discussões e na resolução dos exercícios. Verificar a correta aplicação das propriedades durante as resoluções e a capacidade de elaborar e resolver um problema contextualizado.",
+        "exercicios": [
+          {
+            "enunciado": "Resolva a equação 3x + 5 = 20.",
+            "resposta": "x = 5."
+          },
+          {
+            "enunciado": "Resolva a equação 2x - 3 = 11.",
+            "resposta": "x = 7."
+          },
+          {
+            "enunciado": "Uma receita pede que você misture 4 partes de x litros de água a mais 8 litros de água. Se a mistura total é de 32 litros, quantos litros de água correspondem a cada parte x?",
+            "resposta": "x = 6 litros."
+          },
+          {
+            "enunciado": "Em um triângulo retângulo, um cateto mede 6 cm e a hipotenusa mede 10 cm. Determine a medida do outro cateto, utilizando o teorema de Pitágoras.",
+            "resposta": "O outro cateto mede 8 cm."
+          }
+        ]
+      }
+    }
+  },
+  "resultado": {
+    "habilidades": [
+      "EF07MA18",
+      "EF08MA06"
+    ],
+    "verificacoes_codigo": [
+      {
+        "pergunta": "Todos os códigos do plano final vêm da base BNCC e foram selecionados?",
+        "resultado": "OK",
+        "detalhe": "Códigos conferidos com a base."
+      },
+      {
+        "pergunta": "A soma dos tempos das etapas é 50 minutos?",
+        "resultado": "OK",
+        "detalhe": "Soma das etapas: 50 min."
+      }
+    ]
+  }
+}

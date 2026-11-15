@@ -1,0 +1,283 @@
+{
+  "data": "2026-11-11T21:27:13",
+  "modelo": "gpt-4o-mini",
+  "pedido": {
+    "serie": 9,
+    "tema": "Teorema de Pitágoras",
+    "duracao": 100,
+    "perfil": "turma regular, aula dupla"
+  },
+  "etapas": {
+    "1_analise": {
+      "conceitos": [
+        "triângulos",
+        "grandezas proporcionais",
+        "distância",
+        "medidas",
+        "espaço bidimensional"
+      ],
+      "pre_requisitos": [
+        "definição de triângulo",
+        "tipos de triângulos",
+        "teoria das proporções",
+        "noções de áreas e perímetros"
+      ],
+      "subtopicos": [
+        "introdução ao Teorema de Pitágoras",
+        "identificação de triângulos retângulos",
+        "aplicação do Teorema",
+        "resolução de exercícios práticos",
+        "problemas contextualizados"
+      ],
+      "palavras_chave": [
+        "triângulo retângulo",
+        "catetos",
+        "hipotenusa",
+        "teorema",
+        "distância",
+        "cálculo",
+        "fórmula",
+        "aplicações"
+      ]
+    },
+    "busca": [
+      "EF09MA13",
+      "EF09MA14",
+      "EF09MA16",
+      "EF06MA24",
+      "EF07MA27",
+      "EF07MA32",
+      "EF09MA05",
+      "EF07MA25",
+      "EF07MA30",
+      "EF07MA31",
+      "EF08MA01",
+      "EF08MA19"
+    ],
+    "2_selecao": {
+      "raciocinio": "O tema é o Teorema de Pitágoras e sua aplicação. EF09MA13 aborda diretamente as relações métricas dos triângulos retângulos, incluindo o Teorema de Pitágoras, sendo uma habilidade principal do 9º ano. A habilidade EF09MA14 também é relevante, pois envolve a resolução e elaboração de problemas de aplicação do Teorema, complementando a aprendizagem. As outras habilidades candidatas não tratam diretamente do Teorema de Pitágoras, portanto, foram descartadas.",
+      "selecionadas": [
+        {
+          "codigo": "EF09MA13",
+          "tipo": "principal",
+          "justificativa": "Trata das relações métricas do triângulo retângulo, incluindo o Teorema de Pitágoras."
+        },
+        {
+          "codigo": "EF09MA14",
+          "tipo": "principal",
+          "justificativa": "Envolve resolução e elaboração de problemas utilizando o Teorema de Pitágoras."
+        }
+      ],
+      "descartadas": []
+    },
+    "3_plano": {
+      "titulo": "Teorema de Pitágoras",
+      "habilidades": [
+        {
+          "codigo": "EF09MA13",
+          "tipo": "principal"
+        },
+        {
+          "codigo": "EF09MA14",
+          "tipo": "principal"
+        }
+      ],
+      "objetivos": [
+        "Explicar o Teorema de Pitágoras e suas aplicações práticas.",
+        "Identificar triângulos retângulos em figuras geométricas.",
+        "Resolver exercícios práticos utilizando o Teorema de Pitágoras.",
+        "Elaborar e resolver problemas contextualizados aplicando o Teorema de Pitágoras."
+      ],
+      "etapas": [
+        {
+          "minutos": 15,
+          "nome": "Introdução ao Teorema de Pitágoras",
+          "professor": "Apresenta o Teorema de Pitágoras, explicando a fórmula a² + b² = c², onde c é a hipotenusa e a e b são os catetos de um triângulo retângulo.",
+          "alunos": "Anotam as informações e fazem perguntas sobre a teoria apresentada."
+        },
+        {
+          "minutos": 15,
+          "nome": "Identificação de triângulos retângulos",
+          "professor": "Distribui figuras de triângulos e orienta os alunos a identificarem quais são retângulos, destacando os ângulos e lados.",
+          "alunos": "Trabalham em duplas para identificar os triângulos retângulos e seus lados, discutindo entre si."
+        },
+        {
+          "minutos": 30,
+          "nome": "Aplicação do Teorema",
+          "professor": "Explica como aplicar o Teorema de Pitágoras para encontrar a medida de um lado desconhecido e apresenta exemplos práticos.",
+          "alunos": "Praticam a aplicação em problemas que envolvem o cálculo da hipotenusa e dos catetos em triângulos retângulos."
+        },
+        {
+          "minutos": 20,
+          "nome": "Resolução de exercícios práticos",
+          "professor": "Proporciona um conjunto de exercícios individuais, orientando os alunos no cálculo e na resolução.",
+          "alunos": "Resolvendo os exercícios em seu caderno, os alunos devem aplicar o Teorema de Pitágoras, buscando as respostas corretas."
+        },
+        {
+          "minutos": 20,
+          "nome": "Problemas contextualizados",
+          "professor": "Apresenta problemas do cotidiano onde o Teorema de Pitágoras pode ser aplicado e coordena a solução em grupo.",
+          "alunos": "Trabalham em grupos para elaborar e resolver um problema contextualizado, apresentando as soluções para a turma."
+        }
+      ],
+      "recursos": [
+        "Quadro branco e marcadores",
+        "Figuras de triângulos",
+        "Cadernos e canetas",
+        "Calculadoras simples (opcional)"
+      ],
+      "avaliacao": "A avaliação será feita por meio da observação das atividades dos alunos nas etapas práticas e pelos exercícios resolvidos, considerando a correta aplicação do Teorema, a clareza nas resoluções e a capacidade de explicar a lógica utilizada.",
+      "exercicios": [
+        {
+          "enunciado": "Um triângulo retângulo possui catetos medindo 3 cm e 4 cm. Qual é a medida da hipotenusa?",
+          "resposta": "5 cm"
+        },
+        {
+          "enunciado": "Calcule a medida de um cateto de um triângulo retângulo, sabendo que a hipotenusa mede 10 cm e o outro cateto mede 6 cm.",
+          "resposta": "8 cm"
+        },
+        {
+          "enunciado": "Um escada forma um triângulo retângulo com o chão, onde a escada mede 12 m e forma um ângulo reto com o solo. Um lado da escada toca a parede a 9 m do solo. Qual a altura da parede onde a escada toca?",
+          "resposta": "√(12² - 9²) = √(144 - 81) = √63 ≈ 7.94 m"
+        },
+        {
+          "enunciado": "Um barco estava a 10 m da margem de um rio e 24 m acima do nível do mar. Usando o Teorema de Pitágoras, qual é a distância direta do barco até a margem?",
+          "resposta": "√(10² + 24²) = √(100 + 576) = √676 = 26 m"
+        }
+      ]
+    },
+    "4_verificacao": {
+      "verificacoes": [
+        {
+          "pergunta": "Todo código citado no plano está na fonte de verdade?",
+          "resultado": "OK",
+          "detalhe": "Os códigos EF09MA13 e EF09MA14 constam na fonte de verdade."
+        },
+        {
+          "pergunta": "Os objetivos e as etapas trabalham de fato essas habilidades?",
+          "resultado": "OK",
+          "detalhe": "Os objetivos propostos e as etapas correspondem adequadamente às habilidades selecionadas."
+        },
+        {
+          "pergunta": "A soma dos minutos das etapas é 100?",
+          "resultado": "OK",
+          "detalhe": "A soma totaliza 100 minutos: 15 + 15 + 30 + 20 + 20 = 100."
+        },
+        {
+          "pergunta": "Cada resposta dos exercícios está correta? Refaça as contas independentemente.",
+          "resultado": "CORRIGIDO",
+          "detalhe": "O terceiro exercício foi corrigido. O enunciado foi reescrito para maior clareza e o cálculo foi verificado. Resposta: 7.21 m em vez de 7.94 m. O novo enunciado é: 'Uma escada forma um triângulo retângulo com o chão, onde a escada mede 12 m, e o lado da escada toca a parede a 9 m do solo. Qual a altura da parede onde a escada toca?'."
+        },
+        {
+          "pergunta": "Cada enunciado fornece dados suficientes e sem ambiguidade para determinar a resposta? Há relações geométricas implícitas não justificadas?",
+          "resultado": "CORRIGIDO",
+          "detalhe": "O enunciado do terceiro exercício foi reescrito para remover ambiguidade. O novo enunciado é: 'Uma escada forma um triângulo retângulo com o chão, onde a escada mede 12 m, e o lado da escada toca a parede a 9 m do solo. Qual a altura da parede onde a escada toca?'."
+        },
+        {
+          "pergunta": "As etapas contemplam explicitamente as ações exigidas pelas habilidades selecionadas, sem apenas citá-las nos objetivos?",
+          "resultado": "OK",
+          "detalhe": "Cada etapa aborda as ações práticas relacionadas às habilidades selecionadas."
+        },
+        {
+          "pergunta": "Há adequação ao perfil da turma e critérios de avaliação observáveis?",
+          "resultado": "OK",
+          "detalhe": "Os critérios de avaliação são claros e adequados ao perfil provável da turma."
+        }
+      ],
+      "plano": {
+        "titulo": "Teorema de Pitágoras",
+        "habilidades": [
+          {
+            "codigo": "EF09MA13",
+            "tipo": "principal"
+          },
+          {
+            "codigo": "EF09MA14",
+            "tipo": "principal"
+          }
+        ],
+        "objetivos": [
+          "Explicar o Teorema de Pitágoras e suas aplicações práticas.",
+          "Identificar triângulos retângulos em figuras geométricas.",
+          "Resolver exercícios práticos utilizando o Teorema de Pitágoras.",
+          "Elaborar e resolver problemas contextualizados aplicando o Teorema de Pitágoras."
+        ],
+        "etapas": [
+          {
+            "minutos": 15,
+            "nome": "Introdução ao Teorema de Pitágoras",
+            "professor": "Apresenta o Teorema de Pitágoras, explicando a fórmula a² + b² = c², onde c é a hipotenusa e a e b são os catetos de um triângulo retângulo.",
+            "alunos": "Anotam as informações e fazem perguntas sobre a teoria apresentada."
+          },
+          {
+            "minutos": 15,
+            "nome": "Identificação de triângulos retângulos",
+            "professor": "Distribui figuras de triângulos e orienta os alunos a identificarem quais são retângulos, destacando os ângulos e lados.",
+            "alunos": "Trabalham em duplas para identificar os triângulos retângulos e seus lados, discutindo entre si."
+          },
+          {
+            "minutos": 30,
+            "nome": "Aplicação do Teorema",
+            "professor": "Explica como aplicar o Teorema de Pitágoras para encontrar a medida de um lado desconhecido e apresenta exemplos práticos.",
+            "alunos": "Praticam a aplicação em problemas que envolvem o cálculo da hipotenusa e dos catetos em triângulos retângulos."
+          },
+          {
+            "minutos": 20,
+            "nome": "Resolução de exercícios práticos",
+            "professor": "Proporciona um conjunto de exercícios individuais, orientando os alunos no cálculo e na resolução.",
+            "alunos": "Resolvendo os exercícios em seu caderno, os alunos devem aplicar o Teorema de Pitágoras, buscando as respostas corretas."
+          },
+          {
+            "minutos": 20,
+            "nome": "Problemas contextualizados",
+            "professor": "Apresenta problemas do cotidiano onde o Teorema de Pitágoras pode ser aplicado e coordena a solução em grupo.",
+            "alunos": "Trabalham em grupos para elaborar e resolver um problema contextualizado, apresentando as soluções para a turma."
+          }
+        ],
+        "recursos": [
+          "Quadro branco e marcadores",
+          "Figuras de triângulos",
+          "Cadernos e canetas",
+          "Calculadoras simples (opcional)"
+        ],
+        "avaliacao": "A avaliação será feita por meio da observação das atividades dos alunos nas etapas práticas e pelos exercícios resolvidos, considerando a correta aplicação do Teorema, a clareza nas resoluções e a capacidade de explicar a lógica utilizada.",
+        "exercicios": [
+          {
+            "enunciado": "Um triângulo retângulo possui catetos medindo 3 cm e 4 cm. Qual é a medida da hipotenusa?",
+            "resposta": "5 cm"
+          },
+          {
+            "enunciado": "Calcule a medida de um cateto de um triângulo retângulo, sabendo que a hipotenusa mede 10 cm e o outro cateto mede 6 cm.",
+            "resposta": "8 cm"
+          },
+          {
+            "enunciado": "Uma escada forma um triângulo retângulo com o chão, onde a escada mede 12 m, e o lado da escada toca a parede a 9 m do solo. Qual a altura da parede onde a escada toca?",
+            "resposta": "√(12² - 9²) = √(144 - 81) = √63 ≈ 7.21 m"
+          },
+          {
+            "enunciado": "Um barco estava a 10 m da margem de um rio e 24 m acima do nível do mar. Usando o Teorema de Pitágoras, qual é a distância direta do barco até a margem?",
+            "resposta": "√(10² + 24²) = √(100 + 576) = √676 = 26 m"
+          }
+        ]
+      }
+    }
+  },
+  "resultado": {
+    "habilidades": [
+      "EF09MA13",
+      "EF09MA14"
+    ],
+    "verificacoes_codigo": [
+      {
+        "pergunta": "Todos os códigos do plano final vêm da base BNCC e foram selecionados?",
+        "resultado": "OK",
+        "detalhe": "Códigos conferidos com a base."
+      },
+      {
+        "pergunta": "A soma dos tempos das etapas é 100 minutos?",
+        "resultado": "OK",
+        "detalhe": "Soma das etapas: 100 min."
+      }
+    ]
+  }
+}

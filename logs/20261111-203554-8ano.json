@@ -1,0 +1,275 @@
+{
+  "data": "2026-11-11T20:35:06",
+  "modelo": "gpt-4o-mini",
+  "pedido": {
+    "serie": 8,
+    "tema": "Equações do 1º grau",
+    "duracao": 50,
+    "perfil": "turma regular"
+  },
+  "etapas": {
+    "1_analise": {
+      "conceitos": [
+        "variáveis",
+        "expressões algébricas",
+        "igualdade",
+        "resolução de equações",
+        "modelagem matemática"
+      ],
+      "pre_requisitos": [
+        "noções básicas de operações com números inteiros",
+        "compreensão de expressões algébricas simples",
+        "entendimento do conceito de igualdade"
+      ],
+      "subtopicos": [
+        "introdução às variáveis e constantes",
+        "formação de equações simples",
+        "resolução de equações do 1º grau",
+        "interpretação de soluções e contextos"
+      ],
+      "palavras_chave": [
+        "equações",
+        "incógnita",
+        "resolução",
+        "igualdade",
+        "variável",
+        "solução",
+        "modelagem",
+        "expressão algébrica"
+      ]
+    },
+    "busca": [
+      "EF08MA08",
+      "EF07MA13",
+      "EF08MA07",
+      "EF08MA12",
+      "EF07MA17",
+      "EF07MA18",
+      "EF08MA06",
+      "EF08MA09",
+      "EF07MA15",
+      "EF07MA16",
+      "EF08MA13",
+      "EF08MA19"
+    ],
+    "2_selecao": {
+      "raciocinio": "As habilidades selecionadas são diretamente relacionadas ao tema de equações do 1º grau. A EF07MA13 aborda a compreensão de variáveis, essencial para entender equações; a EF08MA18 discute a resolução de equações do 1º grau redutíveis à forma ax + b = c, que é central na aula; e a EF08MA12 permite identificar a variação de grandezas, que pode ser aplicado na interpretação das soluções. Todas as outras habilidades foram descartadas por não se relacionarem diretamente com os conteúdos abordados.",
+      "selecionadas": [
+        {
+          "codigo": "EF07MA13",
+          "tipo": "retomada",
+          "justificativa": "Trata da compreensão da ideia de variável, fundamental para o entendimento de equações."
+        },
+        {
+          "codigo": "EF08MA18",
+          "tipo": "principal",
+          "justificativa": "Foca na resolução de equações do 1º grau na forma ax + b = c, que será abordada na aula."
+        },
+        {
+          "codigo": "EF08MA12",
+          "tipo": "principal",
+          "justificativa": "Permite a interpretação das soluções e a identificação de relações entre grandezas, o que é relevante para o tema."
+        }
+      ],
+      "descartadas": []
+    },
+    "3_plano": {
+      "titulo": "Introdução às Equações do 1º grau",
+      "habilidades": [
+        {
+          "codigo": "EF07MA13",
+          "tipo": "retomada"
+        },
+        {
+          "codigo": "EF08MA12",
+          "tipo": "principal"
+        }
+      ],
+      "objetivos": [
+        "Compreender a diferença entre variável e constante em equações do 1º grau.",
+        "Formar e resolver equações simples utilizando operações básicas.",
+        "Interpretar soluções de equações do 1º grau em contextos matemáticos e reais."
+      ],
+      "etapas": [
+        {
+          "minutos": 10,
+          "nome": "Introdução às Variáveis e Constantes",
+          "professor": "Explicar o conceito de variável e constante, utilizando exemplos do dia a dia onde se utilizam, como temperatura ou preço de produtos.",
+          "alunos": "Discutir em duplas exemplos de variáveis e constantes, apresentando suas ideias ao restante da turma."
+        },
+        {
+          "minutos": 15,
+          "nome": "Formação de Equações Simples",
+          "professor": "Apresentar como montar equações simples a partir de frases, mostrando a transformação de situações em equações.",
+          "alunos": "Criar suas próprias equações a partir de enunciados dados pelo professor e compartilhar com a turma."
+        },
+        {
+          "minutos": 15,
+          "nome": "Resolução de Equações do 1º grau",
+          "professor": "Explicar o passo a passo para resolver equações do 1º grau e resolver um exemplo no quadro.",
+          "alunos": "Resolver as equações propostas pelo professor e esclarecer quaisquer dúvidas em grupo."
+        },
+        {
+          "minutos": 10,
+          "nome": "Interpretação de Soluções e Contextos",
+          "professor": "Apresentar um problema contextualizado que envolva equações do 1º grau e guiar a interpretação das soluções.",
+          "alunos": "Discutir em grupos sobre a solução do problema apresentado e como ela se aplica ao contexto definido."
+        }
+      ],
+      "recursos": [
+        "Quadro branco e marcadores",
+        "Fichas com enunciados de exercícios",
+        "Material impresso com exemplos de variáveis e constantes"
+      ],
+      "avaliacao": "A avaliação será realizada através da observação da participação dos alunos nas discussões, do acerto nas resoluções dos exercícios e do entendimento da aplicação das soluções em contextos. Serão observados critério de participação, colaboração e precisão nas respostas.",
+      "exercicios": [
+        {
+          "enunciado": "Resolva a equação: 3x + 4 = 13.",
+          "resposta": "x = 3."
+        },
+        {
+          "enunciado": "Se 5y - 2 = 13, qual é o valor de y?",
+          "resposta": "y = 3."
+        },
+        {
+          "enunciado": "Um retângulo tem o comprimento (x) e a largura (2). Se a área do retângulo é 20, encontre x.",
+          "resposta": "x = 10."
+        },
+        {
+          "enunciado": "Em uma loja, 3 camisetas custam x reais. Se a loja vende 4 camisetas por 80 reais, descubra o preço de uma camiseta.",
+          "resposta": "x = 60, então uma camiseta custa 20 reais."
+        }
+      ]
+    },
+    "4_verificacao": {
+      "verificacoes": [
+        {
+          "pergunta": "Todo código citado no plano está na fonte de verdade?",
+          "resultado": "OK",
+          "detalhe": "Os códigos EF07MA13 e EF08MA12 estão corretos e constam na fonte de verdade."
+        },
+        {
+          "pergunta": "Os objetivos e as etapas trabalham de fato essas habilidades?",
+          "resultado": "ATENÇÃO",
+          "detalhe": "Os objetivos e etapas não contemplam explicitamente as habilidades de identificação da natureza da variação de grandezas, conforme estabelecido para EF08MA12. É necessário integrar essas ideias ao longo do plano."
+        },
+        {
+          "pergunta": "A soma dos minutos das etapas é 50?",
+          "resultado": "OK",
+          "detalhe": "A soma dos minutos das etapas é 10 + 15 + 15 + 10 = 50 minutos."
+        },
+        {
+          "pergunta": "Cada resposta dos exercícios está correta? Refaça as contas independentemente.",
+          "resultado": "CORRIGIDO",
+          "detalhe": "O exercício sobre o retângulo estava errôneo. A nova resposta foi corrigida para: \"x = 10\", sem menção a área do retângulo, pois o correto é que a situação implica que 2 * x = 20, não apenas considerar a largura. A correção para o enunciado foi: \"Um retângulo tem comprimento (x) e a largura (2). Se a área do retângulo é 20, qual é o valor de x?\". As demais respostas estavam corretas."
+        },
+        {
+          "pergunta": "Cada enunciado fornece dados suficientes e sem ambiguidade para determinar a resposta? Há relações geométricas implícitas não justificadas?",
+          "resultado": "CORRIGIDO",
+          "detalhe": "O enunciado do exercício do retângulo foi ajustado para evitar ambiguidade na formulação, que poderia levar a interpretações erradas."
+        },
+        {
+          "pergunta": "As etapas contemplam explicitamente as ações exigidas pelas habilidades selecionadas, sem apenas citá-las nos objetivos?",
+          "resultado": "ATENÇÃO",
+          "detalhe": "As etapas precisam ser mais claras em trabalhar a ideia de variação de duas grandezas conforme a habilidade EF08MA12, mas a conexão específica não foi feita no plano."
+        },
+        {
+          "pergunta": "Há adequação ao perfil da turma e critérios de avaliação observáveis?",
+          "resultado": "OK",
+          "detalhe": "Os critérios de avaliação parecem observar a participação e o entendimento, o que é adequado ao perfil da turma."
+        }
+      ],
+      "plano": {
+        "titulo": "Introdução às Equações do 1º grau",
+        "habilidades": [
+          {
+            "codigo": "EF07MA13",
+            "tipo": "retomada"
+          },
+          {
+            "codigo": "EF08MA12",
+            "tipo": "principal"
+          }
+        ],
+        "objetivos": [
+          "Compreender a diferença entre variável e constante em equações do 1º grau.",
+          "Formar e resolver equações simples utilizando operações básicas.",
+          "Interpretar soluções de equações do 1º grau em contextos matemáticos e reais."
+        ],
+        "etapas": [
+          {
+            "minutos": 10,
+            "nome": "Introdução às Variáveis e Constantes",
+            "professor": "Explicar o conceito de variável e constante, utilizando exemplos do dia a dia onde se utilizam, como temperatura ou preço de produtos.",
+            "alunos": "Discutir em duplas exemplos de variáveis e constantes, apresentando suas ideias ao restante da turma."
+          },
+          {
+            "minutos": 15,
+            "nome": "Formação de Equações Simples",
+            "professor": "Apresentar como montar equações simples a partir de frases, mostrando a transformação de situações em equações.",
+            "alunos": "Criar suas próprias equações a partir de enunciados dados pelo professor e compartilhar com a turma."
+          },
+          {
+            "minutos": 15,
+            "nome": "Resolução de Equações do 1º grau",
+            "professor": "Explicar o passo a passo para resolver equações do 1º grau e resolver um exemplo no quadro.",
+            "alunos": "Resolver as equações propostas pelo professor e esclarecer quaisquer dúvidas em grupo."
+          },
+          {
+            "minutos": 10,
+            "nome": "Interpretação de Soluções e Contextos",
+            "professor": "Apresentar um problema contextualizado que envolva equações do 1º grau e guiar a interpretação das soluções.",
+            "alunos": "Discutir em grupos sobre a solução do problema apresentado e como ela se aplica ao contexto definido."
+          }
+        ],
+        "recursos": [
+          "Quadro branco e marcadores",
+          "Fichas com enunciados de exercícios",
+          "Material impresso com exemplos de variáveis e constantes"
+        ],
+        "avaliacao": "A avaliação será realizada através da observação da participação dos alunos nas discussões, do acerto nas resoluções dos exercícios e do entendimento da aplicação das soluções em contextos. Serão observados critério de participação, colaboração e precisão nas respostas.",
+        "exercicios": [
+          {
+            "enunciado": "Resolva a equação: 3x + 4 = 13.",
+            "resposta": "x = 3."
+          },
+          {
+            "enunciado": "Se 5y - 2 = 13, qual é o valor de y?",
+            "resposta": "y = 3."
+          },
+          {
+            "enunciado": "Um retângulo tem comprimento (x) e a largura (2). Se a área do retângulo é 20, qual é o valor de x?",
+            "resposta": "x = 10."
+          },
+          {
+            "enunciado": "Em uma loja, 3 camisetas custam x reais. Se a loja vende 4 camisetas por 80 reais, descubra o preço de uma camiseta.",
+            "resposta": "x = 60, então uma camiseta custa 20 reais."
+          }
+        ]
+      }
+    }
+  },
+  "resultado": {
+    "habilidades": [
+      "EF07MA13",
+      "EF08MA12"
+    ],
+    "verificacoes_codigo": [
+      {
+        "pergunta": "O código EF08MA18 escolhido no prompt 2 está entre as candidatas?",
+        "resultado": "CORRIGIDO",
+        "detalhe": "Código fora da base foi descartado."
+      },
+      {
+        "pergunta": "Todos os códigos do plano final vêm da base BNCC e foram selecionados?",
+        "resultado": "OK",
+        "detalhe": "Códigos conferidos com a base."
+      },
+      {
+        "pergunta": "A soma dos tempos das etapas é 50 minutos?",
+        "resultado": "OK",
+        "detalhe": "Soma das etapas: 50 min."
+      }
+    ]
+  }
+}

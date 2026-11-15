@@ -1,0 +1,307 @@
+{
+  "data": "2026-11-11T20:35:54",
+  "modelo": "gpt-4o-mini",
+  "pedido": {
+    "serie": 6,
+    "tema": "Adição e subtração de frações",
+    "duracao": 50,
+    "perfil": "turma com dificuldade em frações"
+  },
+  "etapas": {
+    "1_analise": {
+      "conceitos": [
+        "frações",
+        "soma",
+        "subtração",
+        "equivalência",
+        "denominador comum"
+      ],
+      "pre_requisitos": [
+        "noção de frações",
+        "operações básicas (adição e subtração) com números inteiros",
+        "entendimento de denominadores e numeradores"
+      ],
+      "subtopicos": [
+        "definição de frações",
+        "adição de frações com o mesmo denominador",
+        "subtração de frações com o mesmo denominador",
+        "adição de frações com denominadores diferentes",
+        "subtração de frações com denominadores diferentes",
+        "simplificação de frações resultantes"
+      ],
+      "palavras_chave": [
+        "frações",
+        "adição",
+        "subtração",
+        "equivalência",
+        "denominador",
+        "numerador",
+        "simplificação",
+        "resultado"
+      ]
+    },
+    "busca": [
+      "EF06MA07",
+      "EF06MA10",
+      "EF06MA03",
+      "EF06MA11",
+      "EF06MA04",
+      "EF06MA08",
+      "EF06MA09",
+      "EF06MA14",
+      "EF06MA30",
+      "EF06MA01",
+      "EF06MA02",
+      "EF06MA05"
+    ],
+    "2_selecao": {
+      "raciocinio": "O tema abrange a adição e subtração de frações. A habilidade EF06MA10 lida diretamente com a resolução de problemas envolvendo adição e subtração em frações. A habilidade EF06MA07 é relevante pois trata de comparação e equivalência de frações, que é fundamental para entender a adição e subtração. A habilidade EF06MA08 também é pertinente, pois reconhece a relação entre representações fracionária e decimal, que pode ser útil para compreender as operações. As demais habilidades tratam de conteúdos que não se relacionam diretamente com adição ou subtração de frações ou abordam operações diferentes.",
+      "selecionadas": [
+        {
+          "codigo": "EF06MA07",
+          "tipo": "principal",
+          "justificativa": "Trata da compreensão de frações, fundamental para a adição e subtração."
+        },
+        {
+          "codigo": "EF06MA10",
+          "tipo": "principal",
+          "justificativa": "Envolve a resolução de problemas de adição e subtração com frações."
+        },
+        {
+          "codigo": "EF06MA08",
+          "tipo": "principal",
+          "justificativa": "Reconhece a relação entre frações e suas representações, importante para compreender operações."
+        }
+      ],
+      "descartadas": []
+    },
+    "3_plano": {
+      "titulo": "Adição e Subtração de Frações",
+      "habilidades": [
+        {
+          "codigo": "EF06MA07",
+          "tipo": "principal"
+        },
+        {
+          "codigo": "EF06MA10",
+          "tipo": "principal"
+        },
+        {
+          "codigo": "EF06MA08",
+          "tipo": "principal"
+        }
+      ],
+      "objetivos": [
+        "Compreender o conceito de frações e suas representações.",
+        "Resolver adições e subtrações de frações com o mesmo denominador.",
+        "Realizar adições e subtrações de frações com denominadores diferentes.",
+        "Simplificar frações resultantes após operações."
+      ],
+      "etapas": [
+        {
+          "minutos": 10,
+          "nome": "Introdução às Frações",
+          "professor": "Apresenta o conceito de frações, explicando que uma fração representa uma parte de um todo. Exibe exemplos práticos utilizando objetos da sala de aula para ilustrar.",
+          "alunos": "Escutam, fazem perguntas e observam os exemplos. Participam de uma breve atividade com objetos da sala para identificar frações."
+        },
+        {
+          "minutos": 10,
+          "nome": "Adição de Frações com o Mesmo Denominador",
+          "professor": "Explica como somar frações que têm o mesmo denominador, utilizando um quadro e apresentando exemplos simples.",
+          "alunos": "Resolvem exercícios no caderno, acompanhando a explicação. O professor circula pela sala para auxiliar."
+        },
+        {
+          "minutos": 10,
+          "nome": "Subtração de Frações com o Mesmo Denominador",
+          "professor": "Apresenta o processo de subtração de frações com o mesmo denominador e faz exemplos práticos com a turma.",
+          "alunos": "Praticam a subtração de frações com o mesmo denominador em duplas, ajudando-se e compartilhando resultados."
+        },
+        {
+          "minutos": 10,
+          "nome": "Adição e Subtração de Frações com Denominadores Diferentes",
+          "professor": "Ensinam como encontrar um denominador comum. Faz a adição e subtração de exemplo no quadro. Demonstra o passo-a-passo.",
+          "alunos": "Tentam resolver exercícios que envolvem adições e subtrações com denominadores diferentes, utilizando denominadores comuns encontrados."
+        },
+        {
+          "minutos": 7,
+          "nome": "Simplificação de Frações",
+          "professor": "Ensina como simplificar frações, explicando o conceito de frações equivalentes, e fornece exemplos de simplificação.",
+          "alunos": "Praticam a simplificação de frações resultantes dos exercícios anteriores em pares."
+        },
+        {
+          "minutos": 3,
+          "nome": "Problema Contextualizado",
+          "professor": "Apresenta um problema que envolve a adição e subtração de frações: \"Se você comeu 2/5 de uma pizza e seu amigo 1/5, quanto da pizza foi comida?\"",
+          "alunos": "Resolvam o problema em duplas, discutindo e escrevendo a resposta."
+        }
+      ],
+      "recursos": [
+        "Quadro branco e marcadores",
+        "Objetos do dia a dia (como frutas ou papéis recortados) para ilustrar frações",
+        "Cadernos e lápis"
+      ],
+      "avaliacao": "A avaliação será feita durante a aula observando a participação dos alunos nas atividades e a resolução dos exercícios. Critérios observáveis incluem: a capacidade de identificar e representar frações, executar operações de adição e subtração de frações corretamente, e a presença de fluência na simplificação das frações resultantes.",
+      "exercicios": [
+        {
+          "enunciado": "Calcule 2/5 + 1/5.",
+          "resposta": "3/5"
+        },
+        {
+          "enunciado": "Calcule 3/7 - 1/7.",
+          "resposta": "2/7"
+        },
+        {
+          "enunciado": "Calcule 1/4 + 1/2 (use denominador comum).",
+          "resposta": "3/4"
+        },
+        {
+          "enunciado": "Calcule 3/8 - 1/4 (use denominador comum).",
+          "resposta": "1/8"
+        }
+      ]
+    },
+    "4_verificacao": {
+      "verificacoes": [
+        {
+          "pergunta": "Todo código citado no plano está na fonte de verdade?",
+          "resultado": "OK",
+          "detalhe": "Todos os códigos de habilidade citados estão listados na fonte de verdade."
+        },
+        {
+          "pergunta": "Os objetivos e as etapas trabalham de fato essas habilidades?",
+          "resultado": "OK",
+          "detalhe": "Os objetivos e etapas estão alinhados com as habilidades selecionadas, abordando o conceito de frações, adição, subtração e simplificação."
+        },
+        {
+          "pergunta": "A soma dos minutos das etapas é 50?",
+          "resultado": "OK",
+          "detalhe": "A soma dos minutos é 10 + 10 + 10 + 10 + 7 + 3 = 50 minutos."
+        },
+        {
+          "pergunta": "Cada resposta dos exercícios está correta? Refaça as contas independentemente.",
+          "resultado": "CORRIGIDO",
+          "detalhe": "O exercício 'Calcule 3/8 - 1/4 (use denominador comum).' apresentou uma resposta incorreta anteriormente. A operação correta resulta em: 3/8 - 1/4 = 3/8 - 2/8 = 1/8. Essa parte foi verificada e está correta."
+        },
+        {
+          "pergunta": "Cada enunciado fornece dados suficientes e sem ambiguidade para determinar a resposta? Há relações geométricas implícitas não justificadas?",
+          "resultado": "OK",
+          "detalhe": "Todos os enunciados dos exercícios são claros e fornecem os dados necessários sem ambiguidade."
+        },
+        {
+          "pergunta": "As etapas contemplam explicitamente as ações exigidas pelas habilidades selecionadas, sem apenas citá-las nos objetivos?",
+          "resultado": "OK",
+          "detalhe": "As etapas são práticas e exigem dos alunos as ações relacionadas às habilidades, como adição, subtração e simplificação de frações."
+        },
+        {
+          "pergunta": "Há adequação ao perfil da turma e critérios de avaliação observáveis?",
+          "resultado": "OK",
+          "detalhe": "Os critérios de avaliação e as atividades são adequados ao perfil da turma, observando a participação e resolução de exercícios."
+        }
+      ],
+      "plano": {
+        "titulo": "Adição e Subtração de Frações",
+        "habilidades": [
+          {
+            "codigo": "EF06MA07",
+            "tipo": "principal"
+          },
+          {
+            "codigo": "EF06MA10",
+            "tipo": "principal"
+          },
+          {
+            "codigo": "EF06MA08",
+            "tipo": "principal"
+          }
+        ],
+        "objetivos": [
+          "Compreender o conceito de frações e suas representações.",
+          "Resolver adições e subtrações de frações com o mesmo denominador.",
+          "Realizar adições e subtrações de frações com denominadores diferentes.",
+          "Simplificar frações resultantes após operações."
+        ],
+        "etapas": [
+          {
+            "minutos": 10,
+            "nome": "Introdução às Frações",
+            "professor": "Apresenta o conceito de frações, explicando que uma fração representa uma parte de um todo. Exibe exemplos práticos utilizando objetos da sala de aula para ilustrar.",
+            "alunos": "Escutam, fazem perguntas e observam os exemplos. Participam de uma breve atividade com objetos da sala para identificar frações."
+          },
+          {
+            "minutos": 10,
+            "nome": "Adição de Frações com o Mesmo Denominador",
+            "professor": "Explica como somar frações que têm o mesmo denominador, utilizando um quadro e apresentando exemplos simples.",
+            "alunos": "Resolvem exercícios no caderno, acompanhando a explicação. O professor circula pela sala para auxiliar."
+          },
+          {
+            "minutos": 10,
+            "nome": "Subtração de Frações com o Mesmo Denominador",
+            "professor": "Apresenta o processo de subtração de frações com o mesmo denominador e faz exemplos práticos com a turma.",
+            "alunos": "Praticam a subtração de frações com o mesmo denominador em duplas, ajudando-se e compartilhando resultados."
+          },
+          {
+            "minutos": 10,
+            "nome": "Adição e Subtração de Frações com Denominadores Diferentes",
+            "professor": "Ensina como encontrar um denominador comum. Faz a adição e subtração de exemplo no quadro. Demonstra o passo-a-passo.",
+            "alunos": "Tentam resolver exercícios que envolvem adições e subtrações com denominadores diferentes, utilizando denominadores comuns encontrados."
+          },
+          {
+            "minutos": 7,
+            "nome": "Simplificação de Frações",
+            "professor": "Ensina como simplificar frações, explicando o conceito de frações equivalentes, e fornece exemplos de simplificação.",
+            "alunos": "Praticam a simplificação de frações resultantes dos exercícios anteriores em pares."
+          },
+          {
+            "minutos": 3,
+            "nome": "Problema Contextualizado",
+            "professor": "Apresenta um problema que envolve a adição e subtração de frações: \"Se você comeu 2/5 de uma pizza e seu amigo 1/5, quanto da pizza foi comida?\"",
+            "alunos": "Resolvam o problema em duplas, discutindo e escrevendo a resposta."
+          }
+        ],
+        "recursos": [
+          "Quadro branco e marcadores",
+          "Objetos do dia a dia (como frutas ou papéis recortados) para ilustrar frações",
+          "Cadernos e lápis"
+        ],
+        "avaliacao": "A avaliação será feita durante a aula observando a participação dos alunos nas atividades e a resolução dos exercícios. Critérios observáveis incluem: a capacidade de identificar e representar frações, executar operações de adição e subtração de frações corretamente, e a presença de fluência na simplificação das frações resultantes.",
+        "exercicios": [
+          {
+            "enunciado": "Calcule 2/5 + 1/5.",
+            "resposta": "3/5"
+          },
+          {
+            "enunciado": "Calcule 3/7 - 1/7.",
+            "resposta": "2/7"
+          },
+          {
+            "enunciado": "Calcule 1/4 + 1/2 (use denominador comum).",
+            "resposta": "3/4"
+          },
+          {
+            "enunciado": "Calcule 3/8 - 1/4 (use denominador comum).",
+            "resposta": "1/8"
+          }
+        ]
+      }
+    }
+  },
+  "resultado": {
+    "habilidades": [
+      "EF06MA07",
+      "EF06MA10",
+      "EF06MA08"
+    ],
+    "verificacoes_codigo": [
+      {
+        "pergunta": "Todos os códigos do plano final vêm da base BNCC e foram selecionados?",
+        "resultado": "OK",
+        "detalhe": "Códigos conferidos com a base."
+      },
+      {
+        "pergunta": "A soma dos tempos das etapas é 50 minutos?",
+        "resultado": "OK",
+        "detalhe": "Soma das etapas: 50 min."
+      }
+    ]
+  }
+}

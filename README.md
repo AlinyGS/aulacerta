@@ -1,6 +1,4 @@
-## Minha parte
-
-Projeto em grupo (Aliny, Bernardo, Henrique e Ranya). Eu escrevi os prompts, conduzi os 3 casos de teste (8º, 6º e 9º ano) registrados em logs e redigi este README e a apresentação.
+# AulaCerta 📐
 
 Gerador de planos de aula de Matemática (6º ao 9º ano) com habilidades da BNCC **conferidas numa base oficial**.
 
@@ -35,6 +33,10 @@ O que é exato fica com o código, não com a IA:
 - o tipo "retomada" é decidido pela série da habilidade;
 - o texto oficial de cada habilidade vem do CSV;
 - a soma dos tempos das etapas é conferida com a duração pedida.
+
+## Minha parte
+
+Projeto em grupo (Aliny, Bernardo, Henrique e Ranya). Eu escrevi os prompts, conduzi os 3 casos de teste (8º, 6º e 9º ano) registrados em logs e redigi este README e a apresentação.
 
 ## Como rodar
 

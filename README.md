@@ -1,8 +1,6 @@
-Defini a persona (professora de Matemática do 6º ao 9º ano) e os 3 casos de teste a partir da minha rotina em sala de aula.
-Escrevi os prompts de seleção de habilidades e de verificação.
-Montei a base com as 121 habilidades de Matemática da BNCC.
+## Minha parte
 
-# AulaCerta 📐
+Projeto em grupo (Aliny, Bernardo, Henrique e Ranya). Eu escrevi os prompts, conduzi os 3 casos de teste (8º, 6º e 9º ano) registrados em logs e redigi este README e a apresentação.
 
 Gerador de planos de aula de Matemática (6º ao 9º ano) com habilidades da BNCC **conferidas numa base oficial**.
 
